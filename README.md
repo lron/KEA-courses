@@ -1,5 +1,4 @@
 # KEA-courses
-Resources for KEA courses
 
 This is a curated list of links to external resources for the Security Engineering (Softwaresikkerhed) and the Applied Cryptography (Anvendt Kryptografi) courses at KEA, organized by lectures and topics.
 Other links and internal resources are to be found in our room’s LMS, i.e. Fronter.
