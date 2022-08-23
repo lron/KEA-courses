@@ -1,8 +1,8 @@
 # Security Engineering resources
 
 ## Contents
-- [Security by design]()
-- [Privacy and data protection by design]()
+- [Security by design](#security-by-design)
+- [Privacy and data protection by design](#privacy-and-data-protection-by-design)
 
 ## Security by design
 
@@ -12,7 +12,7 @@
 - [Open Source Does not Equal Secure - Schneier on Security](https://www.schneier.com/blog/archives/2020/12/open-source-does-not-equal-secure.html)
 - [The protection of Information Computer Systems. Saltzer, Schroeder.](https://www.cl.cam.ac.uk/teaching/1011/R01/75-protection.pdf) - Scientific paper.  
 
-# Privacy and data protection by design
+## Privacy and data protection by design
 
 - [Privacy-by-design/default - IT-Branchen](https://itb.dk/persondataforordningen/privacy-by-design-default/) - in Danish.
 - [Privacy by Design: the 7 Foundational Principles](https://www.ipc.on.ca/wp-content/uploads/Resources/7foundationalprinciples.pdf)
