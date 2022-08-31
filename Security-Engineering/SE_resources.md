@@ -5,6 +5,9 @@
 - [Privacy and data protection by design](#privacy-and-data-protection-by-design)
 - [Knowledge base on attacks](#knowledge-base-on-attacks)
 - [Threat modeling](#threat-modeling)
+- [Attack trees](#attack-trees)
+- [Risk rating and assessment](#risk-rating-and-assessment)
+
 
 ## Security by design
 
@@ -60,4 +63,23 @@
 - [OWASP Threat Dragon](https://www.threatdragon.com) - Website of the open-source threat modeling tool.
 - [OWASP Cornupia: gamifying threat modeling](https://owasp.org/www-project-cornucopia/) - OWASP Cornucopia is a card game used to help derive application security requirements during the software development life cycle.
 - [Threat modeling basics: Google Play Academy](https://playacademy.exceedlms.com/student/path/63550/activity/220969)
+
+## Attack trees
+
+- [Attack trees by B. Schneier](https://www.schneier.com/academic/archives/1999/12/attack_trees.html) - Post first introducing the concept of attack trees.
+- [Draw.io tool for threat modeling and attack trees](https://michenriksen.com/blog/drawio-for-threat-modeling/) - Explains how to use draw.io for threat modeling.
+- [Election operations assessment: threat trees and matrices and threat instance risk analyzer](https://www.eac.gov/sites/default/files/eac_assets/1/28/Election_Operations_Assessment_Threat_Trees_and_Matrices_and_Threat_Instance_Risk_Analyzer_(TIRA).pdf) - The largest publicly accessible set of attack trees for e-voting, useful both as an example and to be directly used.
+- [Qualys SSL Labs - Projects /SSL Threat Model](https://www.ssllabs.com/projects/ssl-threat-model/) - Another interesting example of attack tree. This one shows the overall attack tree of all threats that could affect SSL, using a mind map representation.
+
+## Risk rating and assessment
+
+- [SP 800-30 Rev. 1, Guide for Conducting Risk Assessments](https://csrc.nist.gov/publications/detail/sp/800-30/rev-1/final)
+- [OWASP Risk Rating Methodology](https://owasp.org/www-community/OWASP_Risk_Rating_Methodology)
+- [File:OWASP Risk Rating Template Example.xlsx - OWASP](https://wiki.owasp.org/index.php/File:OWASP_Risk_Rating_Template_Example.xlsx)
+- [Security Risk Calculator | Security](https://security.drupal.org/riskcalc)
+- [OWASP Risk calculator](https://www.security-net.biz/files/owaspriskcalc.html)
+- [Cyberriskcalculator.com](https://www.cyberriskcalculator.com/)
+- [](https://fedvte.usalearning.gov/courses/Security+_v401/course/videos/pdf/Security+_v401_D03_S01_T03_STEP.pdf)
+- [VisionTrack Cyber Security Risk Calculator | Foresite](https://foresite.com/visiontrack-cyber-risk-calculator/)
+- [GitHub - JavierOlmedo/OWASP-Calculator: An online calculator to assess the risk of web vulnerabilities based on OWASP Risk Assessment](https://github.com/JavierOlmedo/OWASP-Calculator)
 
