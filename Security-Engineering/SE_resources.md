@@ -29,6 +29,7 @@
 - [CWE Common Weakness Enumeration](https://cwe.mitre.org/index.html)
 - [MITRE ATT&CK](https://attack.mitre.org/)
 - [MITRE releases D3FEND, defensive measures complimentary to its ATT&CK framework](https://therecord.media/mitre-releases-d3fend-defensive-measures-complimentary-to-its-attck-framework/)
+- [An incomplete look at vulnerability databases & scoring methodologies](https://medium.com/@chris.hughes_11070/an-incomplete-look-at-vulnerability-databases-scoring-methodologies-7be7155661e8) - Provides an overview of the differences and similarities between CVE, NVD, CVSSS and other vulnerabilities databases.
 - [CISA Releases Best Practices for Mapping to MITRE ATT&CK framework](https://www.cisa.gov/uscert/ncas/current-activity/2021/06/02/cisa-releases-best-practices-mapping-mitre-attckr)
 - [Best practices for mapping adversary behavior to the MITRE ATT&CK framework](https://www.cisa.gov/uscert/sites/default/files/publications/Best%20Practices%20for%20MITRE%20ATTCK%20Mapping.pdf)
 - [MITRE Engage](https://engage.mitre.org/)
