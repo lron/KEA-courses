@@ -7,6 +7,8 @@
 - [Threat modeling](#threat-modeling)
 - [Attack trees](#attack-trees)
 - [Risk rating and assessment](#risk-rating-and-assessment)
+- [Books available online](#books-available-online)
+- [Online trainings](#online-trainings)
 
 
 ## Security by design
@@ -79,7 +81,17 @@
 - [Security Risk Calculator | Security](https://security.drupal.org/riskcalc)
 - [OWASP Risk calculator](https://www.security-net.biz/files/owaspriskcalc.html)
 - [Cyberriskcalculator.com](https://www.cyberriskcalculator.com/)
-- [](https://fedvte.usalearning.gov/courses/Security+_v401/course/videos/pdf/Security+_v401_D03_S01_T03_STEP.pdf)
 - [VisionTrack Cyber Security Risk Calculator | Foresite](https://foresite.com/visiontrack-cyber-risk-calculator/)
 - [GitHub - JavierOlmedo/OWASP-Calculator: An online calculator to assess the risk of web vulnerabilities based on OWASP Risk Assessment](https://github.com/JavierOlmedo/OWASP-Calculator)
 
+
+## Books available online
+
+- [The Security Development Lifecycle](https://bit.ly/35dKSIj) - by Michael Howard and Steve Lipner
+- [Secure Programming HOWTO](https://dwheeler.com/secure-programs/Secure-Programs-HOWTO.pdf) - by D. Wheeler.
+- [Security Engineering](https://www.cl.cam.ac.uk/~rja14/book.html) - by R. Anderson. Second edition of the book is entirely available for free, as well as some parts of the third edition. It contains also several interesting teaching videos based on the book.
+
+
+## Online trainings
+
+- [SAFECode Training](https://safecode.org/training/)
