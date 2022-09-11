@@ -7,6 +7,11 @@
 - [Threat modeling](#threat-modeling)
 - [Attack trees](#attack-trees)
 - [Risk rating and assessment](#risk-rating-and-assessment)
+- [Secure SDLC](#secure-sdlc)
+- [Security requirements](#security-requirements)
+- [Misuse (or abuse) cases](#misuse-cases)
+- [DevSecOps](#devsecops)
+- [Securing web application technologies (SWAT)](#securing-web-application-technologies-swat)
 - [Books available online](#books-available-online)
 - [Online trainings](#online-trainings)
 
@@ -84,6 +89,40 @@
 - [VisionTrack Cyber Security Risk Calculator | Foresite](https://foresite.com/visiontrack-cyber-risk-calculator/)
 - [GitHub - JavierOlmedo/OWASP-Calculator: An online calculator to assess the risk of web vulnerabilities based on OWASP Risk Assessment](https://github.com/JavierOlmedo/OWASP-Calculator)
 
+
+## Secure SDLC
+
+- [Security by design framework. Version 1.0. CSA Singapore.](https://www.csa.gov.sg/~/media/csa/documents/legislation_supplementary_references/security_by_design_framework.pdf)
+- [Microsoft Security Development Lifecycle](https://www.microsoft.com/en-us/securityengineering/sdl)
+- [Security development lifecycle : Google Play Academy](https://playacademy.exceedlms.com/student/path/63550/activity/95091) - Short course on SDLC.
+
+## Security requirements
+
+- [Security Quality Requirements Engineering (SQUARE) Methodology](https://resources.sei.cmu.edu/asset_files/TechnicalReport/2005_005_001_14594.pdf)
+- [OWASP Application Security Verification Standard](https://owasp.org/www-project-application-security-verification-standard/)
+- [SAFECode Practical Security Stories and Security Tasks for Agile Development Environments](https://safecode.org/publication/SAFECode_Agile_Dev_Security0712.pdf)
+
+## Misuse (or abuse) cases
+
+- [Abuse Case - OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/cheatsheets/Abuse_Case_Cheat_Sheet.html)
+- [Abuser Stories - Think Like the Bad Guy with Judy Neher - at Agile 2015](https://www.dailymotion.com/video/x36m6lp) - Approx. 8min video.
+
+## DevSecOps
+
+- [SP 800-218, Secure Software Development Framework (SSDF) Version 1.1 | CSRC](https://csrc.nist.gov/publications/detail/sp/800-218/final)
+- [Nine Key Cloud Security Concentrations & SWAT Checklist | SANS Poster](https://www.sans.org/security-resources/posters/cloud-security-devsecops-practices/200/download) - SANS Poster. See page 2. Last updated in April 2022.
+- [How can we integrate security into the DevOps pipelines?](https://medium.com/swlh/how-to-integrate-security-on-the-devops-pipeline-e36dea836d7b)
+- [DevSecOps manifesto](https://www.devsecops.org/)
+- [Appsecmap.com](https://appsecmap.com/) - Classifies the commercial and open-source tools required to build out your AppSec program.
+- [2020 DevSecOps Community Survey by Sonatype](https://www.sonatype.com/hubfs/DevSecOps%20Survey/2020/DSO_Community_Survey_2020_Final_4.1.20.pdf)
+- [GitHub - TaptuIT/awesome-devsecops: Curating the best DevSecOps resources and tooling](https://github.com/TaptuIT/awesome-devsecops)
+- [Periodic Table of DevOps Tools](https://digital.ai/devops-tools-periodic-table)
+- [How to deploy a comprehensive DevSecOps solution (Red Hat)](https://www.redhat.com/en/resources/deploy-comprehensive-devsecops-solution-overview)
+- [DevSecOps Security Controls Infographic](https://accelera.com.au/wp-content/uploads/2020/09/Accelera-DevSecOps-Security-Controls-Infographic_v1.0_2020.pdf)
+
+## Securing web application technologies (SWAT)
+
+- [Securing Web Application Technologies : [SWAT] Checklist | SANS Institute](https://www.sans.org/cloud-security/securing-web-application-technologies/) - Provides a complete list of best practices to secure web applications.
 
 ## Books available online
 
