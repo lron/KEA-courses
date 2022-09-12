@@ -1,17 +1,27 @@
 # Security Engineering resources
 
 ## Contents
+
+### Lecture 1
 - [Security by design](#security-by-design)
 - [Privacy and data protection by design](#privacy-and-data-protection-by-design)
+
+### Lecture 2
 - [Knowledge base on attacks](#knowledge-base-on-attacks)
 - [Threat modeling](#threat-modeling)
+
+### Lecture 3
 - [Attack trees](#attack-trees)
 - [Risk rating and assessment](#risk-rating-and-assessment)
+
+### Lecture 4
 - [Secure SDLC](#secure-sdlc)
 - [Security requirements](#security-requirements)
 - [Misuse (or abuse) cases](#misuse-cases)
 - [DevSecOps](#devsecops)
 - [Securing web application technologies (SWAT)](#securing-web-application-technologies-swat)
+
+### Remaining lectures
 - [Code review](#code-review)
 - [Heartbleed vulnerability](#heartbleed-vulnerability)
 - [iOS SSL flaw](#ios-ssl-flaw)
