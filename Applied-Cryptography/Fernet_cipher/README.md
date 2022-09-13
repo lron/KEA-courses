@@ -1,4 +1,4 @@
-## Fernet cipher
+# Fernet cipher
 
 This is a very simple exercise to practice encrypting and decrypting using in this case Fernet cipher, which is a symmetric cipher, and the Python module [cryptography](https://cryptography.io).
 
