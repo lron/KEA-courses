@@ -36,7 +36,7 @@
 
 ## Introduction and classical crypto
 
-- [Schneier's Law" - Schneier on Security](https://www.schneier.com/blog/archives/2011/04/schneiers_law.html)
+- [Schneier's Law - Schneier on Security](https://www.schneier.com/blog/archives/2011/04/schneiers_law.html)
 - [Stack Overflow Considered Harmful? The Impact of Copy&Paste on Android Application Security | IEEE Conference Publication](https://ieeexplore.ieee.org/document/7958574)
 - [Welcome to pycipher’s documentation! — pycipher 1 documentation](https://pycipher.readthedocs.io/en/master/#caesar-cipher) - Python library implementing Caesar and other classical crypto ciphers.
 - [Caesar cipher - Rosetta Code](https://rosettacode.org/wiki/Caesar_cipher)
@@ -288,7 +288,7 @@
 
 ## Crypto challenges
 
-- [CryptoHack](https://cryptohack.org/)
+- [CryptoHack](https://cryptohack.org/) - A fun, free platform for learning modern cryptography.
 - [SpiderLabs/CryptOMG](https://github.com/SpiderLabs/CryptOMG) - Configurable CTF style test bed that highlights common flaws in cryptographic implementations. 
 - [GitHub - c4pr1c3/docker-cryptomg: CryptOMG is a configurable CTF style test bed that highlights common flaws in cryptographic implementations.](https://github.com/c4pr1c3/docker-cryptomg) - Instructions on how to run CryptOMG using Docker.
 - [The Cryptopals Crypto Challenges](https://cryptopals.com/) - By NCC Group.
