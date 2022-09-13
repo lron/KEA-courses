@@ -17,7 +17,7 @@
 ### Lecture 4
 - [Secure SDLC](#secure-sdlc)
 - [Security requirements](#security-requirements)
-- [Misuse (or abuse) cases](#misuse-cases)
+- [Abuse cases](#abuse-cases)
 - [DevSecOps](#devsecops)
 - [Securing web application technologies (SWAT)](#securing-web-application-technologies-swat)
 
@@ -124,8 +124,6 @@
 - [File:OWASP Risk Rating Template Example.xlsx - OWASP](https://wiki.owasp.org/index.php/File:OWASP_Risk_Rating_Template_Example.xlsx)
 - [Security Risk Calculator | Security](https://security.drupal.org/riskcalc)
 - [OWASP Risk calculator](https://www.security-net.biz/files/owaspriskcalc.html)
-- [Cyberriskcalculator.com](https://www.cyberriskcalculator.com/)
-- [VisionTrack Cyber Security Risk Calculator | Foresite](https://foresite.com/visiontrack-cyber-risk-calculator/)
 - [GitHub - JavierOlmedo/OWASP-Calculator: An online calculator to assess the risk of web vulnerabilities based on OWASP Risk Assessment](https://github.com/JavierOlmedo/OWASP-Calculator)
 
 
@@ -141,7 +139,7 @@
 - [OWASP Application Security Verification Standard](https://owasp.org/www-project-application-security-verification-standard/)
 - [SAFECode Practical Security Stories and Security Tasks for Agile Development Environments](https://safecode.org/publication/SAFECode_Agile_Dev_Security0712.pdf)
 
-## Misuse (or abuse) cases
+## Abuse cases
 
 - [Abuse Case - OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/cheatsheets/Abuse_Case_Cheat_Sheet.html)
 - [Abuser Stories - Think Like the Bad Guy with Judy Neher - at Agile 2015](https://www.dailymotion.com/video/x36m6lp) - Approx. 8min video.
@@ -193,12 +191,11 @@ Static analysis tools (SAST) are perhaps the most common tool for an AppSec team
 
 ## Secret leakage
 
-- [Secrets Management CheatSheet](https://github.com/OWASP/CheatSheetSeries/blob/master/cheatsheets/Secrets_Management_CheatSheet.md)
+- [OWASP's Secrets Management CheatSheet](https://cheatsheetseries.owasp.org/cheatsheets/Secrets_Management_Cheat_Sheet.html)
 - [How bad can it Git? Characterizing secret leakage in public GitHub repositories](https://www.ndss-symposium.org/wp-content/uploads/2019/02/ndss2019_04B-3_Meli_paper.pdf) - Paper explaining different techniques for detection of secrets, besides the typical grep search.
 - [Removing sensitive data from a repository - GitHub Docs](https://docs.github.com/en/github/authenticating-to-github/removing-sensitive-data-from-a-repository#using-filter-branch)
 - [BFG Repo-Cleaner by rtyley](https://rtyley.github.io/bfg-repo-cleaner/) - A simpler, faster and open-source alternative to git-filter-branch for deleting big files and removing passwords from Git history.
 - [OWASP WrongSecrets | OWASP Foundation](https://owasp.org/www-project-wrongsecrets/)
-- [GitHub - InfosecRD/awesome-secret-scanning: Github awesome list for source code secret scanning solutions](https://github.com/InfosecRD/awesome-secret-scanning)
 - [Git Clean, Git Remove file from commit - Cheatsheet](https://blog.gitguardian.com/rewriting-git-history-cheatsheet/)
 
 
@@ -232,7 +229,7 @@ Static analysis tools (SAST) are perhaps the most common tool for an AppSec team
 - [Component Analysis | OWASP](https://owasp.org/www-community/Component_Analysis) - Includes a list of SCA tools.
 - [Sonatype OSS index](https://ossindex.sonatype.org/)
 - [The unfortunate reality of insecure libraries](https://cdn2.hubspot.net/hub/203759/file-1100864196-pdf/docs/Contrast_-_Insecure_Libraries_2014.pdf)- Article.
-- [Dependency Hijacking Software Supply Chain Attack Hits More Than 35 Organizations](https://blog.sonatype.com/dependency-hijacking-software-supply-chain-attack-hits-more-than-35-organization) - Article, february 2021.
+- [Dependency Hijacking Software Supply Chain Attack Hits More Than 35 Organizations](https://blog.sonatype.com/dependency-hijacking-software-supply-chain-attack-hits-more-than-35-organizations) - Article, february 2021.
 - [The State of Open Source Security Vulnerabilities 2021 by WhiteSource](https://www.whitesourcesoftware.com/wp-content/media/2021/04/the-state-of-open-source-vulnerabilities-2021.pdf)
 - [2021 Sate of Software Supply Chain - Sonatype report](https://www.sonatype.com/hubfs/Q3%202021-State%20of%20the%20Software%20Supply%20Chain-Report/SSSC-Report-2021_0913_PM_2.pdf)
 - [Why You Need a Software Bill of Materials More Than Ever](https://blog.sonatype.com/why-you-need-a-software-bill-of-materials-more-than-ever)
@@ -313,7 +310,7 @@ Static analysis tools (SAST) are perhaps the most common tool for an AppSec team
 
 ## Ariane V launch accident
 
-- [Web section – Software Engineering 10th edition](https://iansommerville.com/software-engineering-book/static/web/ariane/)
+- [Web section – Software Engineering 10th edition](https://software-engineering-book.com/case-studies/ariane5/)
 - [Ariane V: Fligh 501 Failure](https://esamultimedia.esa.int/docs/esa-x-1819eng.pdf) - Official report by the ESA. This report is provided out of curiosity, if you want to know more (and official) details about the accident.
 - [Light Years Ahead | The 1969 Apollo Guidance Computer - YouTube](https://www.youtube.com/watch?v=B1J2RMorJXM) - Approx 1h20min Youtube video. Apollo lunar and how it managed errors.
 
@@ -333,9 +330,9 @@ Static analysis tools (SAST) are perhaps the most common tool for an AppSec team
 ## Logs
 
 - [Logging - OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html)
-- [Ingen log intet indbrud by CFCS](https://cfcs.dk/globalassets/cfcs/dokumenter/rapporter/-undersogelsesrapport---ingen-log-intet-indbrud-.pdf) - In Danish. Report from June 2021.
+- [Ingen log - intet indbrud. Betydningen af logs for at kunne undersøge og beskytte sig imod cybertrusler, by CFCS](https://cfcs.dk/globalassets/cfcs/dokumenter/rapporter/-undersogelsesrapport---ingen-log-intet-indbrud-.pdf) - In Danish. Report from June 2021.
 - [Pushing Left, Like a Boss — Part 5.9 — Error Handling and Logging – We Hack Purple](https://wehackpurple.com/pushing-left-like-a-boss%E2%80%8A-%E2%80%8Apart-5-9%E2%80%8A-%E2%80%8Aerror-handling-and-logging/)
-- [CFCS vejledning logning](https://cfcs.dk/globalassets/cfcs/dokumenter/vejledninger/cfcs-vejledning-logning.pdf) - In Danish. Report from Nov. 2020.
+- [Logning - en del af et godt cyberforsvar, by CFCS](https://cfcs.dk/globalassets/cfcs/dokumenter/vejledninger/cfcs-vejledning-logning.pdf) - In Danish. Report from Nov. 2020.
 
 
 ## Security Culture
