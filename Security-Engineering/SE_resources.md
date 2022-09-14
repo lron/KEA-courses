@@ -57,41 +57,41 @@
 
 ## Security by design
 
-- [Security Design Principles - Cryptosmith](https://cryptosmith.com/2013/10/19/security-design-principles/)
-- [Security by Design Principles according to OWASP](https://patchstack.com/articles/security-design-principles-owasp/)
-- [The Process of Security - Schneier on Security](https://www.schneier.com/essays/archives/2000/04/the_process_of_secur.html)
-- [Open Source Does not Equal Secure - Schneier on Security](https://www.schneier.com/blog/archives/2020/12/open-source-does-not-equal-secure.html)
-- [The protection of Information Computer Systems. Saltzer, Schroeder.](https://www.cl.cam.ac.uk/teaching/1011/R01/75-protection.pdf) - Scientific paper.  
+- [Security Design Principles - Cryptosmith](https://cryptosmith.com/2013/10/19/security-design-principles/) - Good summary of some of the security design principles, including a reflection of why current textbooks don't refer to them as principles but as security controls.
+- [Security by Design Principles according to OWASP](https://patchstack.com/articles/security-design-principles-owasp/) - Security design principles with examples from web applications.
+- [The Process of Security - Schneier on Security](https://www.schneier.com/essays/archives/2000/04/the_process_of_secur.html) - In this article, Schneier discusses about how difficult it is to get security right and also mentions the role of considering security design principles to make secure software.
+- [Open Source Does not Equal Secure - Schneier on Security](https://www.schneier.com/blog/archives/2020/12/open-source-does-not-equal-secure.html) - Open source means that the code is available for security evaluation, not that it necessarily has been evaluated by anyone.
+- [The protection of Information Computer Systems. Saltzer, Schroeder.](https://www.cl.cam.ac.uk/teaching/1011/R01/75-protection.pdf) - Scientific paper (66 pages) first introducing security design principles.
 
 ## Privacy and data protection by design
 
-- [Privacy-by-design/default - IT-Branchen](https://itb.dk/persondataforordningen/privacy-by-design-default/) - in Danish.
-- [Privacy by Design: the 7 Foundational Principles](https://www.ipc.on.ca/wp-content/uploads/Resources/7foundationalprinciples.pdf)
-- [Privacy and data protection by design: from policy to engineering](https://www.enisa.europa.eu/publications/privacy-and-data-protection-by-design/at_download/fullReport)
-- [Privacy by design in big data - ENISA](https://www.enisa.europa.eu/publications/big-data-protection)
-- [What is differential privacy and how can it protect your data?](https://theconversation.com/explainer-what-is-differential-privacy-and-how-can-it-protect-your-data-90686)
+- [Privacy-by-design/default - IT-Branchen](https://itb.dk/persondataforordningen/privacy-by-design-default/) - in Danish. Discusses about the concepts of "privacy by design" and "privacy by default".
+- [Privacy by Design: the 7 Foundational Principles](https://www.ipc.on.ca/wp-content/uploads/Resources/7foundationalprinciples.pdf) - This principles are argued to be a bit abstract and difficult to implement in practice.
+- [Privacy and data protection by design: from policy to engineering](https://www.enisa.europa.eu/publications/privacy-and-data-protection-by-design/at_download/fullReport) - Report from the European Union Agency for Network and Information Security presenting specific security measures and technologies to provide privacy and data protection.
+- [Privacy by design in big data - ENISA](https://www.enisa.europa.eu/publications/big-data-protection) - Focuses on the shift of the discussion from "big data versus privacy" to "big data with privacy".
+- [What is differential privacy and how can it protect your data?](https://theconversation.com/explainer-what-is-differential-privacy-and-how-can-it-protect-your-data-90686) - Differential privacy is a method mentioned in the ENISA report to aggregate information and achieve privacy.
 
 ## Knowledge base on attacks
 
-- [CAPEC Common Attack Pattern Enumeration and Classification](https://capec.mitre.org/index.html)
-- [CVE Common Vulnerabilities and Exposures](https://cve.mitre.org/index.html)
-- [CWE Common Weakness Enumeration](https://cwe.mitre.org/index.html)
-- [MITRE ATT&CK](https://attack.mitre.org/)
+- [CAPEC Common Attack Pattern Enumeration and Classification](https://capec.mitre.org/index.html) - By MITRE. Provides a comprehensive dictionary of known patterns of attack employed by adversaries to exploit known weaknesses in cyber-enabled capabilities.
+- [CVE Common Vulnerabilities and Exposures](https://cve.mitre.org/index.html) - Catalog of publicly disclosed cybersecurity vulnerabilities.
+- [CWE Common Weakness Enumeration](https://cwe.mitre.org/index.html) - Serves as a common language, a measuring stick for security tools, and as a baseline for weakness identification, mitigation, and prevention efforts.
+- [MITRE ATT&CK](https://attack.mitre.org/) - Globally-accessible knowledge base of adversary tactics and techniques based on real-world observations.
 - [MITRE releases D3FEND, defensive measures complimentary to its ATT&CK framework](https://therecord.media/mitre-releases-d3fend-defensive-measures-complimentary-to-its-attck-framework/)
 - [An incomplete look at vulnerability databases & scoring methodologies](https://medium.com/@chris.hughes_11070/an-incomplete-look-at-vulnerability-databases-scoring-methodologies-7be7155661e8) - Provides an overview of the differences and similarities between CVE, NVD, CVSSS and other vulnerabilities databases.
 - [CISA Releases Best Practices for Mapping to MITRE ATT&CK framework](https://www.cisa.gov/uscert/ncas/current-activity/2021/06/02/cisa-releases-best-practices-mapping-mitre-attckr)
 - [Best practices for mapping adversary behavior to the MITRE ATT&CK framework](https://www.cisa.gov/uscert/sites/default/files/publications/Best%20Practices%20for%20MITRE%20ATTCK%20Mapping.pdf)
-- [MITRE Engage](https://engage.mitre.org/)
-- [MITRE updates list of top 25 most dangerous software bugs](https://www.bleepingcomputer.com/news/security/mitre-updates-list-of-top-25-most-dangerous-software-bugs/)
+- [MITRE Engage](https://engage.mitre.org/) - Framework for planning and discussing adversary engagement operations.
+- [MITRE updates list of top 25 most dangerous software bugs](https://www.bleepingcomputer.com/news/security/mitre-updates-list-of-top-25-most-dangerous-software-bugs/) - From July 2021.
 
 ## Threat modeling
 
-- [Guide to Threat Modeling - by Cyber Security Agency of Singapore (CISA)](https://www.csa.gov.sg/-/media/csa/documents/legislation_supplementary_references/guide-to-cyber-threat-modelling.pdf) - From February 2021.
-- [Pushing left, like a boss - Part 6: Threat Modeling - We Hack Purple](https://wehackpurple.com/pushing-left-like-a-boss-part-6-threat-modelling/)
-- [Threat Modeling: 12 available methods](https://insights.sei.cmu.edu/blog/threat-modeling-12-available-methods/) - Briefly explains the different methods to do threat model.
-- [Threat Model Examples](https://github.com/TalEliyahu/Threat_Model_Examples) - Collection of threat models for various protocols and technologies.
-- [NIST Brings Threat Modeling into the Spotlight](https://thecyberpost.com/news/security/threat-intelligence/nist-brings-threat-modeling-into-the-spotlight/)
-- [#WeHackPurple podcast episode 50 with guest Adam Shostack - Youtube](https://www.youtube.com/watch?v=I9F9nzpjS5U)
+- [Guide to Threat Modeling - by Cyber Security Agency of Singapore (CISA)](https://www.csa.gov.sg/-/media/csa/documents/legislation_supplementary_references/guide-to-cyber-threat-modelling.pdf) - From February 2021. Extensive guide (30 pages) about threat modeling activities, using MITRE ATT&CK and Lockheed Martin Cyber Kill Chain.
+- [Pushing left, like a boss - Part 6: Threat Modeling - We Hack Purple](https://wehackpurple.com/pushing-left-like-a-boss-part-6-threat-modelling/) - Well explained introduction to threat modeling within the SDLC.
+- [Threat Modeling: 12 available methods](https://insights.sei.cmu.edu/blog/threat-modeling-12-available-methods/) - Briefly explains the different methods to do threat model, including STRIDE, PASTA, and LINDDUN.
+- [Threat Model Examples](https://github.com/TalEliyahu/Threat_Model_Examples) - Collection of threat models for various protocols and technologies, including Kubernetes, Docker, and CI/CD pipeline among others.
+- [NIST Brings Threat Modeling into the Spotlight](https://thecyberpost.com/news/security/threat-intelligence/nist-brings-threat-modeling-into-the-spotlight/) - Threat modeling is ranked first in NIST’s recent report on recommended technique classes for software verification.
+- [#WeHackPurple podcast episode 50 with guest Adam Shostack - Youtube](https://www.youtube.com/watch?v=I9F9nzpjS5U) - (35 min) Podcast interviewing Adam Shostack, author of the book Threat Modeling.
 - [Fast Cheap and Good - Adam Shostack latest paper](https://shostack.org/files/papers/Fast-Cheap-and-Good.pdf)
 - [Interview: Think like an attacker or accountant?](https://appsecpodcast.securityjourney.com/1730684/8122724-interview-think-like-an-attacker-or-accountant-s01e16-application-security-podcast)
 - ["Think like an Attacker" is an opt-in mistake - Adam Shostack & friends](https://adam.shostack.org/blog/2016/04/think-like-an-attacker-is-an-opt-in-mistake/)
