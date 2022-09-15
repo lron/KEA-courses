@@ -30,6 +30,7 @@
 - [Container and CI/CD pipeline security](#container-and-cicd-pipeline-security)
 - [General links](#general-links)
 - [Top 10 vulnerabilities](#top-10-vulnerabilities)
+- [Security of third-party dependencies](#security-of-third-party-dependencies)
 - [Security in software supply chain](#security-in-software-supply-chain)
 - [Formal verification](#formal-verification)
 - [External security assessments](#external-security-assessments)
@@ -175,6 +176,9 @@
 - [bliki: CodeSmell](https://martinfowler.com/bliki/CodeSmell.html) - Martin Fowler's explanation of what code smell is.
 - [An Insight into Security Static Analysis Tools - Infosec Resources](https://resources.infosecinstitute.com/topic/insight-security-static-analysis-tools/)
 - [Security Code Review 101 — Protecting Data (Part 1) | by Paul Ionescu | Medium](https://medium.com/@paul_io/security-code-review-101-protecting-data-part-1-23e810277f7d) - Interesting article talking about how to spot data breaches during code review.
+- [OWASP Secure Coding Practices-Quick Reference Guide](https://owasp.org/www-project-secure-coding-practices-quick-reference-guide/migrated_content) - Technology agnostic set of general software security coding practices, in a comprehensive checklist format, that can be integrated into the development lifecycle. The focus is on secure coding requirements, rather then on vulnerabilities and exploits.
+- [google/styleguide](https://github.com/google/styleguide) - Style guides and code conventions for Google-originated open-source projects.
+- [WebAppSec/Secure Coding Guidelines](https://wiki.mozilla.org/WebAppSec/Secure_Coding_Guidelines) - Establishes a concise and consistent approach to secure application development of Mozilla web applications and web services.
 
 
 ## Heartbleed vulnerability
@@ -216,28 +220,33 @@
 - [OWASP Top Ten project](https://owasp.org/www-project-top-ten/) - The OWASP Top 10 is the reference standard for the most critical web application security risks.
 - [Why is Server-Side Request Forgery #10 in OWASP Top 10 2021?](https://www.securityjourney.com/post/why-is-server-side-request-forgery-10-in-owasp-top-10-2021)
 
-
-## Security in software supply chain
+## Security of third-party dependencies
 
 - [Pushing Left, Like a Boss — Part 5.2- Use Safe Dependencies – We Hack Purple](https://wehackpurple.com/5-2-safe-dependencies/) - Includes a non-exhaustive list of software that scans 3rd party components for security vulnerabilities, also known as Software Composition Analysis (SCA).
-- [tag-security/supply-chain-security/supply-chain-security-paper](https://github.com/cncf/tag-security/tree/main/supply-chain-security/supply-chain-security-paper)
-- [Towards better vendor security assessments - Dropbox](https://dropbox.tech/security/towards-better-vendor-security-assessments)
-- [What Constitutes a Software Supply Chain Attack?](https://blog.sonatype.com/what-constitutes-a-software-supply-chain-attack?)
 - [OWASP Dependency-Check Project | OWASP](https://owasp.org/www-project-dependency-check/)
 - [Component Analysis | OWASP](https://owasp.org/www-community/Component_Analysis) - Includes a list of SCA tools.
 - [Sonatype OSS index](https://ossindex.sonatype.org/)
 - [The unfortunate reality of insecure libraries](https://cdn2.hubspot.net/hub/203759/file-1100864196-pdf/docs/Contrast_-_Insecure_Libraries_2014.pdf)- Article.
 - [Dependency Hijacking Software Supply Chain Attack Hits More Than 35 Organizations](https://blog.sonatype.com/dependency-hijacking-software-supply-chain-attack-hits-more-than-35-organizations) - Article, february 2021.
 - [The State of Open Source Security Vulnerabilities 2021 by WhiteSource](https://www.whitesourcesoftware.com/wp-content/media/2021/04/the-state-of-open-source-vulnerabilities-2021.pdf)
-- [2021 Sate of Software Supply Chain - Sonatype report](https://www.sonatype.com/hubfs/Q3%202021-State%20of%20the%20Software%20Supply%20Chain-Report/SSSC-Report-2021_0913_PM_2.pdf)
+- [[Analyst Report] 2021 Open Source Security and Analysis Report](https://www.synopsys.com/software-integrity/resources/analyst-reports/open-source-security-risk-analysis.html)
+- [The internet runs on free open-source software. Who pays to fix it? | MIT Technology Review](https://www.technologyreview.com/2021/12/17/1042692/log4j-internet-open-source-hacking/)
+
+
+
+## Security in software supply chain
+
+- [tag-security/supply-chain-security/supply-chain-security-paper](https://github.com/cncf/tag-security/tree/main/supply-chain-security/supply-chain-security-paper)
+- [Towards better vendor security assessments - Dropbox](https://dropbox.tech/security/towards-better-vendor-security-assessments)
+- [What Constitutes a Software Supply Chain Attack?](https://blog.sonatype.com/what-constitutes-a-software-supply-chain-attack?)
+- [2021 State of Software Supply Chain - Sonatype report](https://www.sonatype.com/hubfs/Q3%202021-State%20of%20the%20Software%20Supply%20Chain-Report/SSSC-Report-2021_0913_PM_2.pdf)
 - [Why You Need a Software Bill of Materials More Than Ever](https://blog.sonatype.com/why-you-need-a-software-bill-of-materials-more-than-ever)
 - [What Is the SolarWinds Hack and Why Is It a Big Deal?](https://www.businessinsider.com/solarwinds-hack-explained-government-agencies-cyber-security-2020-12)
 - [The US is readying sanctions against Russia over the SolarWinds cyber attack. Here's a simple explanation of how the massive hack happened and why it's such a big deal](https://www.businessinsider.com/solarwinds-hack-explained-government-agencies-cyber-security-2020-12)
 - [Codecov Breach: All Questions Answered - SISA AdvisoryCodecov Breach: All Questions Answered](https://www.sisainfosec.com/security-advisory/codecov-breach/)
 - [The Full Story of the Stunning RSA Hack Can Finally Be Told | WIRED](https://www.wired.com/story/the-full-story-of-the-stunning-rsa-hack-can-finally-be-told/) - Really good long article about the Chinese hacking of RSA, Inc. They were able to get copies of the seed values to the SecurID authentication token, an anticipation of supply-chain attacks to come.
 - [Supply chain insecurity: Keep your eyes on the road with Ruby on Rails](https://www.securityjourney.com/post/supply-chain-insecurity-keep-your-eyes-on-the-road-with-ruby-on-rails)
-- [[Analyst Report] 2021 Open Source Security and Analysis Report](https://www.synopsys.com/software-integrity/resources/analyst-reports/open-source-security-risk-analysis.html)
-- [The internet runs on free open-source software. Who pays to fix it? | MIT Technology Review](https://www.technologyreview.com/2021/12/17/1042692/log4j-internet-open-source-hacking/)
+- [Mitigate against tampering attacks - Secure your software delivery chain](https://www.eficode.com/blog/mitigate-against-attacks-secure-your-software-delivery-chain) - Great explanation of how the source code was compromised in the SolarWinds breach.
 
 
 ## Formal verification
