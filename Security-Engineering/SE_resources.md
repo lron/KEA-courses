@@ -21,11 +21,12 @@
 - [DevSecOps](#devsecops)
 - [Securing web application technologies (SWAT)](#securing-web-application-technologies-swat)
 
-### Remaining lectures
+### Lecture 5
 - [Code review](#code-review)
 - [Heartbleed vulnerability](#heartbleed-vulnerability)
 - [iOS SSL flaw](#ios-ssl-flaw)
 - [Secret leakage](#secret-leakage)
+### Remaining lectures
 - [Container and CI/CD pipeline security](#container-and-cicd-pipeline-security)
 - [General links](#general-links)
 - [Top 10 vulnerabilities](#top-10-vulnerabilities)
@@ -92,14 +93,14 @@
 - [Threat Model Examples](https://github.com/TalEliyahu/Threat_Model_Examples) - Collection of threat models for various protocols and technologies, including Kubernetes, Docker, and CI/CD pipeline among others.
 - [NIST Brings Threat Modeling into the Spotlight](https://thecyberpost.com/news/security/threat-intelligence/nist-brings-threat-modeling-into-the-spotlight/) - Threat modeling is ranked first in NIST’s recent report on recommended technique classes for software verification.
 - [#WeHackPurple podcast episode 50 with guest Adam Shostack - Youtube](https://www.youtube.com/watch?v=I9F9nzpjS5U) - (35 min) Podcast interviewing Adam Shostack, author of the book Threat Modeling.
-- [Fast Cheap and Good - Adam Shostack latest paper](https://shostack.org/files/papers/Fast-Cheap-and-Good.pdf)
-- [Interview: Think like an attacker or accountant?](https://appsecpodcast.securityjourney.com/1730684/8122724-interview-think-like-an-attacker-or-accountant-s01e16-application-security-podcast)
-- ["Think like an Attacker" is an opt-in mistake - Adam Shostack & friends](https://adam.shostack.org/blog/2016/04/think-like-an-attacker-is-an-opt-in-mistake/)
+- [Fast, Cheap and Good - by Adam Shostack](https://shostack.org/files/papers/Fast-Cheap-and-Good.pdf) - Adam Shostack's latest whitepaper addressing the argument that claims that threat modeling is a waste of time.
+- [Interview: Think like an attacker or accountant?](https://appsecpodcast.securityjourney.com/1730684/8122724-interview-think-like-an-attacker-or-accountant-s01e16-application-security-podcast) - A 28min interview to Adam Shostack, where he argues that "thinking like a hacker" is not the right approach to follow.
+- ["Think like an Attacker" is an opt-in mistake - Adam Shostack & friends](https://adam.shostack.org/blog/2016/04/think-like-an-attacker-is-an-opt-in-mistake/) - Blog post explaining what the above podcast is about.
 - [OWASP/threat-model-cookbook](https://github.com/OWASP/threat-model-cookbook) - This project is about creating and publishing threat model examples.
 - [Threat Modeling Manifesto](https://www.threatmodelingmanifesto.org/)
 - [The Threat Modeling Manifesto - part 1 (podcast)](https://appsecpodcast.securityjourney.com/1730684/8122585-the-threat-modeling-manifesto-part-1) - Approx. 25min podcast. Interesting introduction to what threat modeling is and the ideas behind it.
-- [The Threat Modeling Manifesto - part 2 (podcast)](https://appsecpodcast.securityjourney.com/1730684/8122584-the-threat-modeling-manifesto-part-2) - Approx. 24min podcast.
-- [Application Threat Modeling - by OWASP](https://owasp.org/www-community/Threat_Modeling)
+- [The Threat Modeling Manifesto - part 2 (podcast)](https://appsecpodcast.securityjourney.com/1730684/8122584-the-threat-modeling-manifesto-part-2) - Approx. 24min podcast. Continuation of the podcast above.
+- [Application Threat Modeling - by OWASP](https://owasp.org/www-community/Threat_Modeling) - Threat modeling according to OWASP.
 - [Threat modeling](https://www.cs.montana.edu/courses/csci476/topics/threat_modeling.pdf) - Slides by Montana State University, with nice examples on library application.
 - [Threat Modeling course by British Columbia Provincial Government](https://www.linkedin.com/posts/julienprovenzano_threat-modelling-information-security-branch-activity-6955326649148076032-zY_O?utm_source=share&utm_medium=member_desktop) - From a LinkedIn post.
 - [BruCON 0x06 - Keynote - Adam Shostack - Youtube](https://www.youtube.com/watch?v=-2zvfevLnp4) - Youtube video about threat modeling. Approx. 1h.
@@ -108,7 +109,7 @@
 - [GitHub - izar/pytm: A Pythonic framework for threat modeling](https://github.com/izar/pytm)
 - [OWASP Threat Dragon](https://www.threatdragon.com) - Website of the open-source threat modeling tool.
 - [OWASP Cornupia: gamifying threat modeling](https://owasp.org/www-project-cornucopia/) - OWASP Cornucopia is a card game used to help derive application security requirements during the software development life cycle.
-- [Threat modeling basics: Google Play Academy](https://playacademy.exceedlms.com/student/path/63550/activity/220969)
+- [Threat modeling basics: Google Play Academy](https://playacademy.exceedlms.com/student/path/63550/activity/220969) - Short course with the basis of threat modeling and STRIDE.
 
 ## Attack trees
 
@@ -124,37 +125,37 @@
 - [File:OWASP Risk Rating Template Example.xlsx - OWASP](https://wiki.owasp.org/index.php/File:OWASP_Risk_Rating_Template_Example.xlsx)
 - [Security Risk Calculator | Security](https://security.drupal.org/riskcalc)
 - [OWASP Risk calculator](https://www.security-net.biz/files/owaspriskcalc.html)
-- [GitHub - JavierOlmedo/OWASP-Calculator: An online calculator to assess the risk of web vulnerabilities based on OWASP Risk Assessment](https://github.com/JavierOlmedo/OWASP-Calculator)
+- [GitHub - JavierOlmedo/OWASP-Calculator](https://github.com/JavierOlmedo/OWASP-Calculator) - An online calculator to assess the risk of web vulnerabilities based on OWASP Risk Assessment.
 
 
 ## Secure SDLC
 
-- [Security by design framework. Version 1.0. CSA Singapore.](https://www.csa.gov.sg/~/media/csa/documents/legislation_supplementary_references/security_by_design_framework.pdf)
-- [Microsoft Security Development Lifecycle](https://www.microsoft.com/en-us/securityengineering/sdl)
-- [Security development lifecycle : Google Play Academy](https://playacademy.exceedlms.com/student/path/63550/activity/95091) - Short course on SDLC.
+- [Security by design framework. Version 1.0. CSA Singapore.](https://www.csa.gov.sg/~/media/csa/documents/legislation_supplementary_references/security_by_design_framework.pdf) - Framework that proposes building security by design by integrating security into the SDLC.
+- [Microsoft Security Development Lifecycle](https://www.microsoft.com/en-us/securityengineering/sdl) -  Introduces security and privacy considerations throughout all phases of the development process.
+- [Security development lifecycle : Google Play Academy](https://playacademy.exceedlms.com/student/path/63550/activity/95091) - Short course on secure SDLC.
 
 ## Security requirements
 
-- [Security Quality Requirements Engineering (SQUARE) Methodology](https://resources.sei.cmu.edu/asset_files/TechnicalReport/2005_005_001_14594.pdf)
-- [OWASP Application Security Verification Standard](https://owasp.org/www-project-application-security-verification-standard/)
-- [SAFECode Practical Security Stories and Security Tasks for Agile Development Environments](https://safecode.org/publication/SAFECode_Agile_Dev_Security0712.pdf)
+- [Security Quality Requirements Engineering (SQUARE) Methodology](https://resources.sei.cmu.edu/asset_files/TechnicalReport/2005_005_001_14594.pdf) - Consists of nine steps that generate a final deliverable of categorized and prioritized security requirements by Carnegie Mellon University.
+- [OWASP Application Security Verification Standard](https://owasp.org/www-project-application-security-verification-standard/) - Provides a basis for testing web application technical security controls and also a list of requirements for secure development.
+- [SAFECode Practical Security Stories and Security Tasks for Agile Development Environments](https://safecode.org/publication/SAFECode_Agile_Dev_Security0712.pdf) - Document providing Agile practitioners with a list of security-focused stories and security tasks they can consume "as is" in their Agile-based development environments.
 
 ## Abuse cases
 
-- [Abuse Case - OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/cheatsheets/Abuse_Case_Cheat_Sheet.html)
-- [Abuser Stories - Think Like the Bad Guy with Judy Neher - at Agile 2015](https://www.dailymotion.com/video/x36m6lp) - Approx. 8min video.
+- [Abuse Case - OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/cheatsheets/Abuse_Case_Cheat_Sheet.html) - Provides an explanation of what an Abuse Case is, why abuse cases are important when considering the security of an application, and finally provides a proposal for a pragmatic approach to building a list of abuse cases and tracking them for every feature planned for implementation as part of an application.
+- [Abuser Stories - Think Like the Bad Guy with Judy Neher - at Agile 2015](https://www.dailymotion.com/video/x36m6lp) - Approx. 8min video first introducing abuse stories or abuse cases.
 
 ## DevSecOps
 
-- [SP 800-218, Secure Software Development Framework (SSDF) Version 1.1 | CSRC](https://csrc.nist.gov/publications/detail/sp/800-218/final)
-- [Nine Key Cloud Security Concentrations & SWAT Checklist | SANS Poster](https://www.sans.org/security-resources/posters/cloud-security-devsecops-practices/200/download) - SANS Poster. See page 2. Last updated in April 2022.
-- [How can we integrate security into the DevOps pipelines?](https://medium.com/swlh/how-to-integrate-security-on-the-devops-pipeline-e36dea836d7b)
+- [SP 800-218, Secure Software Development Framework (SSDF) Version 1.1 | CSRC](https://csrc.nist.gov/publications/detail/sp/800-218/final) - Recommendations for Mitigating the Risk of Software Vulnerabilities by NIST.
+- [Nine Key Cloud Security Concentrations & SWAT Checklist | SANS Poster](https://www.sans.org/security-resources/posters/cloud-security-devsecops-practices/200/download) - SANS Poster. See page 2. Last updated in April 2022. This checklist can be used to identify the minimum standard that is required to neutralize vulnerabilities in critical applications.
+- [How can we integrate security into the DevOps pipelines?](https://medium.com/swlh/how-to-integrate-security-on-the-devops-pipeline-e36dea836d7b) - Article containing 8 recommendations to start implementing security in the CI/CD pipeline.
 - [DevSecOps manifesto](https://www.devsecops.org/)
-- [Appsecmap.com](https://appsecmap.com/) - Classifies the commercial and open-source tools required to build out your AppSec program.
-- [2020 DevSecOps Community Survey by Sonatype](https://www.sonatype.com/hubfs/DevSecOps%20Survey/2020/DSO_Community_Survey_2020_Final_4.1.20.pdf)
+- [Appsecmap.com](https://appsecmap.com/) - Classifies the commercial and open-source tools required to build out your AppSec program, including SAST, DAST, RASP, WAF, SCA among others.
+- [2020 DevSecOps Community Survey by Sonatype](https://www.sonatype.com/hubfs/DevSecOps%20Survey/2020/DSO_Community_Survey_2020_Final_4.1.20.pdf) - Takes a look at the differences between mature and immature DevOps practices in different survey respondents.
 - [GitHub - TaptuIT/awesome-devsecops: Curating the best DevSecOps resources and tooling](https://github.com/TaptuIT/awesome-devsecops)
-- [Periodic Table of DevOps Tools](https://digital.ai/devops-tools-periodic-table)
-- [How to deploy a comprehensive DevSecOps solution (Red Hat)](https://www.redhat.com/en/resources/deploy-comprehensive-devsecops-solution-overview)
+- [Periodic Table of DevOps Tools](https://digital.ai/devops-tools-periodic-table) - Industry's go-to resource for identifying best-of-breed tools across the software delivery lifecycle.
+- [How to deploy a comprehensive DevSecOps solution (Red Hat)](https://www.redhat.com/en/resources/deploy-comprehensive-devsecops-solution-overview) - Framework by Red Hat that provides a solid foundation and blueprint for delivering DevSecOps solutions that deploy and scale more efficiently. 
 - [DevSecOps Security Controls Infographic](https://accelera.com.au/wp-content/uploads/2020/09/Accelera-DevSecOps-Security-Controls-Infographic_v1.0_2020.pdf)
 
 ## Securing web application technologies (SWAT)
@@ -163,40 +164,37 @@
 
 ## Code review
 
-Static analysis tools (SAST) are perhaps the most common tool for an AppSec team in the endless effort to move security to the left. They can be integrated into development pipelines in order to offer quick feedback to the developer to catch security bugs, resulting in faster remediation times and improved return on investment for developing secure software.
-
-- [OWASP Code Review Guide v.2](https://owasp.org/www-pdf-archive/OWASP_Code_Review_Guide_v2.pdf)
-- [OWASP Benchmark of some static analysis tools](https://owasp.org/www-project-benchmark/)
-- [OWASP Secure Coding Practices - Quick Reference Guide](https://owasp.org/www-pdf-archive/OWASP_SCP_Quick_Reference_Guide_v2.pdf)
-- [Don’t Underestimate Grep Based Code Scanning – Little Man In My Head](https://littlemaninmyhead.wordpress.com/2019/08/04/dont-underestimate-grep-based-code-scanning/)
-- [List of Source Code Security Analyzers](https://samate.nist.gov/index.php/Source_Code_Security_Analyzers.html) - by NIST.
+- [OWASP Code Review Guide v.2](https://owasp.org/www-project-code-review-guide/) - Book covering the why and how of code reviews, and types of vulnerabilities and how to identify throughout the review.
+- [OWASP Benchmark of some static analysis tools](https://owasp.org/www-project-benchmark/) - Java test suite designed to evaluate the accuracy, coverage, and speed of automated software vulnerability detection tools, not only for SAST but also for DAST and IAST tools.
+- [OWASP Secure Coding Practices - Quick Reference Guide](https://owasp.org/www-pdf-archive/OWASP_SCP_Quick_Reference_Guide_v2.pdf) - Defines a set of general software security coding practices, in a checklist format, that can be integrated into the software development lifecycle. Implementation of these practices will mitigate most common software vulnerabilities. 
+- [Don’t Underestimate Grep Based Code Scanning – Little Man In My Head](https://littlemaninmyhead.wordpress.com/2019/08/04/dont-underestimate-grep-based-code-scanning/) - Blog post covering grep-based code scanning, which is an old fashioned way of SAST scanning can still do reasonably well compared to expensive SAST tools in terms of quality of bugs found.
+- [List of Source Code Security Analyzers](https://samate.nist.gov/index.php/Source_Code_Security_Analyzers.html) - Long (and still probably non-exhaustive) list of source code scanners, by NIST, with information about licenses and the kind of vulnerabilities they each can find.
 - [List of Byte Code Scanners | NISTLock](https://samate.nist.gov/index.php/Byte_Code_Scanners.html)
-- [analysis-tools-dev/static-analysis](https://github.com/analysis-tools-dev/static-analysis)
-- [Essays: How to Design—And Defend Against—The Perfect Security Backdoor - Schneier on Security](https://www.schneier.com/essays/archives/2013/10/how_to_design_and_de.html)
-- [bliki: CodeSmell](https://martinfowler.com/bliki/CodeSmell.html)
-- [Does the "honeymoon effect" hold for exploits?](http://dreuarchive.cra.org/2011/Gelles/rdreureport.pdf)
+- [analysis-tools-dev/static-analysis](https://github.com/analysis-tools-dev/static-analysis) - A curated list of static analysis (SAST) tools for all programming languages, config files, build tools, and more. The focus is on tools which improve code quality.
+- [Essays: How to Design—And Defend Against—The Perfect Security Backdoor - Schneier on Security](https://www.schneier.com/essays/archives/2013/10/how_to_design_and_de.html) - Sometimes security issues in code do look like deliberate backdoors.
+- [bliki: CodeSmell](https://martinfowler.com/bliki/CodeSmell.html) - Martin Fowler's explanation of what code smell is.
 - [An Insight into Security Static Analysis Tools - Infosec Resources](https://resources.infosecinstitute.com/topic/insight-security-static-analysis-tools/)
-- [Security Code Review 101 — Protecting Data (Part 1) | by Paul Ionescu | Medium](https://medium.com/@paul_io/security-code-review-101-protecting-data-part-1-23e810277f7d)
-- [r2c blog — 🤫 Don't leak your secrets](https://r2c.dev/blog/2021/dont-leak-your-secrets/)
+- [Security Code Review 101 — Protecting Data (Part 1) | by Paul Ionescu | Medium](https://medium.com/@paul_io/security-code-review-101-protecting-data-part-1-23e810277f7d) - Interesting article talking about how to spot data breaches during code review.
 
 
 ## Heartbleed vulnerability
 
-- [The Role of Static Analysis in Heartbleed | SANS Institute](https://www.sans.org/reading-room/whitepapers/threats/role-static-analysis-heartbleed-35752)
-- [Heartbleed, Running the Code - Computerphile](https://www.youtube.com/watch?v=1dOCHwf8zVQ) - Approx. 11min Youtube video.
+- [The Role of Static Analysis in Heartbleed | SANS Institute](https://www.sans.org/reading-room/whitepapers/threats/role-static-analysis-heartbleed-35752) - This paper details what the Heartbleed bug is, how the details were disclosed, how vendors responded to it and how static analysis in software quality could have been involved in discovering the bug.
+- [Heartbleed, Running the Code - Computerphile](https://www.youtube.com/watch?v=1dOCHwf8zVQ) - Approx. 11min Youtube video that looks and actually also runs the code that exploits the Heartbleed bug.
 
 ## iOS SSL flaw
 
-- [Extremely critical crypto flaw in iOS may also affect fully patched Macs | Ars Technica](https://arstechnica.com/information-technology/2014/02/extremely-critical-crypto-flaw-in-ios-may-also-affect-fully-patched-macs/)
+- [Extremely critical crypto flaw in iOS may also affect fully patched Macs | Ars Technica](https://arstechnica.com/information-technology/2014/02/extremely-critical-crypto-flaw-in-ios-may-also-affect-fully-patched-macs/) - Article from 2014, explaining the iOS vulnerability.
 
 ## Secret leakage
 
-- [OWASP's Secrets Management CheatSheet](https://cheatsheetseries.owasp.org/cheatsheets/Secrets_Management_Cheat_Sheet.html)
+- [r2c blog — 🤫 Don't leak your secrets](https://r2c.dev/blog/2021/dont-leak-your-secrets/) -  How to scan your source code for secrets using Semgrep.
+- [OWASP's Secrets Management CheatSheet](https://cheatsheetseries.owasp.org/cheatsheets/Secrets_Management_Cheat_Sheet.html) - This cheat sheet offers best practices and guidelines to help properly implement secrets management.
 - [How bad can it Git? Characterizing secret leakage in public GitHub repositories](https://www.ndss-symposium.org/wp-content/uploads/2019/02/ndss2019_04B-3_Meli_paper.pdf) - Paper explaining different techniques for detection of secrets, besides the typical grep search.
-- [Removing sensitive data from a repository - GitHub Docs](https://docs.github.com/en/github/authenticating-to-github/removing-sensitive-data-from-a-repository#using-filter-branch)
+- [Removing sensitive data from a repository - GitHub Docs](https://docs.github.com/en/github/authenticating-to-github/removing-sensitive-data-from-a-repository#using-filter-branch) - Github's official documentation about how to entirely remove sensitive data you've already committed.
 - [BFG Repo-Cleaner by rtyley](https://rtyley.github.io/bfg-repo-cleaner/) - A simpler, faster and open-source alternative to git-filter-branch for deleting big files and removing passwords from Git history.
-- [OWASP WrongSecrets | OWASP Foundation](https://owasp.org/www-project-wrongsecrets/)
-- [Git Clean, Git Remove file from commit - Cheatsheet](https://blog.gitguardian.com/rewriting-git-history-cheatsheet/)
+- [OWASP WrongSecrets | OWASP Foundation](https://owasp.org/www-project-wrongsecrets/) - This is the first Secrets Management-focused vulnerable/p0wnable app.
+- [Rewriting your git history, removing files permanently. Cheat sheet included.](https://blog.gitguardian.com/rewriting-git-history-cheatsheet/) - How to successfully and securely eliminate a secret or file from your git history, step by step.
 
 
 ## Container and CI/CD pipeline security
