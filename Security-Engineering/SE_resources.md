@@ -25,7 +25,7 @@
 - [Code review](#code-review)
 - [Heartbleed vulnerability](#heartbleed-vulnerability)
 - [iOS SSL flaw](#ios-ssl-flaw)
-- [Secret leakage](#secret-leakage)
+- [Secrets leakage](#secrets-leakage)
 ### Remaining lectures
 - [Container and CI/CD pipeline security](#container-and-cicd-pipeline-security)
 - [General links](#general-links)
@@ -190,7 +190,7 @@
 
 - [Extremely critical crypto flaw in iOS may also affect fully patched Macs | Ars Technica](https://arstechnica.com/information-technology/2014/02/extremely-critical-crypto-flaw-in-ios-may-also-affect-fully-patched-macs/) - Article from 2014, explaining the iOS vulnerability.
 
-## Secret leakage
+## Secrets leakage
 
 - [r2c blog — 🤫 Don't leak your secrets](https://r2c.dev/blog/2021/dont-leak-your-secrets/) -  How to scan your source code for secrets using Semgrep.
 - [OWASP's Secrets Management CheatSheet](https://cheatsheetseries.owasp.org/cheatsheets/Secrets_Management_Cheat_Sheet.html) - This cheat sheet offers best practices and guidelines to help properly implement secrets management.
