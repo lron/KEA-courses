@@ -26,12 +26,12 @@
 - [Heartbleed vulnerability](#heartbleed-vulnerability)
 - [iOS SSL flaw](#ios-ssl-flaw)
 - [Secrets leakage](#secrets-leakage)
-### Remaining lectures
+### Lecture 6
 - [Container and CI/CD pipeline security](#container-and-cicd-pipeline-security)
-- [General links](#general-links)
 - [Top 10 vulnerabilities](#top-10-vulnerabilities)
 - [Security of third-party dependencies](#security-of-third-party-dependencies)
 - [Security in software supply chain](#security-in-software-supply-chain)
+### Remaining lectures
 - [Formal verification](#formal-verification)
 - [External security assessments](#external-security-assessments)
 - [Bug bounties](#bug-bounties)
@@ -207,11 +207,6 @@
 - [Container security best practices: Comprehensive guide](https://sysdig.com/blog/container-security-best-practices/)
 - [Intro To Docker: Why And How To Use Containers On Any System | Hackaday](https://hackaday.com/2018/09/05/intro-to-docker-why-and-how-to-use-containers-on-any-system/)
 - [10 real-world stories of how we’ve compromised CI/CD pipelines – NCC Group Research](https://research.nccgroup.com/2022/01/13/10-real-world-stories-of-how-weve-compromised-ci-cd-pipelines/)
-
-
-## General links
-
-- [Want to Write Good Code? Start Using Security Tests - Omer Levi Hevroni](https://www.omerlh.info/2018/10/04/write-good-code-with-security-tests/)
 - [Securing DevOps — Review of Approaches | by Arseny Chernov | Medium](https://medium.com/@arsenyspb/securing-devops-review-of-approaches-a801742630ca)
 
 
@@ -248,7 +243,7 @@
 - [The Full Story of the Stunning RSA Hack Can Finally Be Told | WIRED](https://www.wired.com/story/the-full-story-of-the-stunning-rsa-hack-can-finally-be-told/) - Really good long article about the Chinese hacking of RSA, Inc. They were able to get copies of the seed values to the SecurID authentication token, an anticipation of supply-chain attacks to come.
 - [Supply chain insecurity: Keep your eyes on the road with Ruby on Rails](https://www.securityjourney.com/post/supply-chain-insecurity-keep-your-eyes-on-the-road-with-ruby-on-rails)
 - [Mitigate against tampering attacks - Secure your software delivery chain](https://www.eficode.com/blog/mitigate-against-attacks-secure-your-software-delivery-chain) - Great explanation of how the source code was compromised in the SolarWinds breach.
-
+- [Want to Write Good Code? Start Using Security Tests - Omer Levi Hevroni](https://www.omerlh.info/2018/10/04/write-good-code-with-security-tests/)
 
 ## Formal verification
 
