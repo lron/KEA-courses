@@ -155,6 +155,7 @@
 - [Appsecmap.com](https://appsecmap.com/) - Classifies the commercial and open-source tools required to build out your AppSec program, including SAST, DAST, RASP, WAF, SCA among others.
 - [2020 DevSecOps Community Survey by Sonatype](https://www.sonatype.com/hubfs/DevSecOps%20Survey/2020/DSO_Community_Survey_2020_Final_4.1.20.pdf) - Takes a look at the differences between mature and immature DevOps practices in different survey respondents.
 - [GitHub - TaptuIT/awesome-devsecops: Curating the best DevSecOps resources and tooling](https://github.com/TaptuIT/awesome-devsecops)
+- [Ultimate DevSecOps library](https://github.com/sottlmarek/DevSecOps) - Like an "awesome" repository but without being an official one. Very complete as well.
 - [Periodic Table of DevOps Tools](https://digital.ai/devops-tools-periodic-table) - Industry's go-to resource for identifying best-of-breed tools across the software delivery lifecycle.
 - [How to deploy a comprehensive DevSecOps solution (Red Hat)](https://www.redhat.com/en/resources/deploy-comprehensive-devsecops-solution-overview) - Framework by Red Hat that provides a solid foundation and blueprint for delivering DevSecOps solutions that deploy and scale more efficiently. 
 - [DevSecOps Security Controls Infographic](https://accelera.com.au/wp-content/uploads/2020/09/Accelera-DevSecOps-Security-Controls-Infographic_v1.0_2020.pdf)
