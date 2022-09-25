@@ -244,6 +244,9 @@
 - [Supply chain insecurity: Keep your eyes on the road with Ruby on Rails](https://www.securityjourney.com/post/supply-chain-insecurity-keep-your-eyes-on-the-road-with-ruby-on-rails)
 - [Mitigate against tampering attacks - Secure your software delivery chain](https://www.eficode.com/blog/mitigate-against-attacks-secure-your-software-delivery-chain) - Great explanation of how the source code was compromised in the SolarWinds breach.
 - [Want to Write Good Code? Start Using Security Tests - Omer Levi Hevroni](https://www.omerlh.info/2018/10/04/write-good-code-with-security-tests/)
+- [anchore/syft](https://github.com/anchore/syft) - CLI tool and library for generating a Software Bill of Materials from container images and filesystems.
+- [anchore/grype](https://github.com/anchore/grype) - A vulnerability scanner for container images and filesystems.
+- [exploit-CVE-2015-1427](https://github.com/t0kx/exploit-CVE-2015-1427) - Elasticsearch 1.4.0 < 1.4.2 Remote Code Execution exploit and vulnerable container.
 
 ## Formal verification
 
