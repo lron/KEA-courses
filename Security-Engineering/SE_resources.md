@@ -205,6 +205,9 @@
 ## Container and CI/CD pipeline security
 
 - [Container security best practices: Comprehensive guide](https://sysdig.com/blog/container-security-best-practices/)
+- [All about that base image](https://uploads-ssl.webflow.com/6228fdbc6c97145dad2a9c2b/624e2337f70386ed568d7e7e_chainguard-all-about-that-base-image.pdf) - Using “quiet” base images, minimal images with few or no vulnerabilities and built-in security, can reduce security debt, decrease the developer’s workload, and improve development velocity.
+- [Building minimal Docker containers for Python applications](https://blog.realkinetic.com/building-minimal-docker-containers-for-python-applications-37d0272c52f3) - On how to keep the image size to a minimum.
+- [Best practices when writing a Dockerfile for a Ruby application](https://lipanski.com/posts/dockerfile-ruby-best-practices) - Even though the article focuses on Ruby applications, the best practices mentions are well applicable to all kinds of Dockerfiles, and it's full of examples. It's particularly interesting the part explaining how to avoid leaking secrets inside your docker history.
 - [Intro To Docker: Why And How To Use Containers On Any System | Hackaday](https://hackaday.com/2018/09/05/intro-to-docker-why-and-how-to-use-containers-on-any-system/)
 - [10 real-world stories of how we’ve compromised CI/CD pipelines – NCC Group Research](https://research.nccgroup.com/2022/01/13/10-real-world-stories-of-how-weve-compromised-ci-cd-pipelines/)
 - [Securing DevOps — Review of Approaches | by Arseny Chernov | Medium](https://medium.com/@arsenyspb/securing-devops-review-of-approaches-a801742630ca)
