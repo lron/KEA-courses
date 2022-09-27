@@ -204,39 +204,39 @@
 
 ## Container and CI/CD pipeline security
 
-- [Container security best practices: Comprehensive guide](https://sysdig.com/blog/container-security-best-practices/)
+- [Container security best practices: Comprehensive guide](https://sysdig.com/blog/container-security-best-practices/) - Good summary of container security best practices.
 - [All about that base image](https://uploads-ssl.webflow.com/6228fdbc6c97145dad2a9c2b/624e2337f70386ed568d7e7e_chainguard-all-about-that-base-image.pdf) - Using “quiet” base images, minimal images with few or no vulnerabilities and built-in security, can reduce security debt, decrease the developer’s workload, and improve development velocity.
 - [Building minimal Docker containers for Python applications](https://blog.realkinetic.com/building-minimal-docker-containers-for-python-applications-37d0272c52f3) - On how to keep the image size to a minimum.
 - [Best practices when writing a Dockerfile for a Ruby application](https://lipanski.com/posts/dockerfile-ruby-best-practices) - Even though the article focuses on Ruby applications, the best practices mentions are well applicable to all kinds of Dockerfiles, and it's full of examples. It's particularly interesting the part explaining how to avoid leaking secrets inside your docker history.
-- [Intro To Docker: Why And How To Use Containers On Any System | Hackaday](https://hackaday.com/2018/09/05/intro-to-docker-why-and-how-to-use-containers-on-any-system/)
-- [10 real-world stories of how we’ve compromised CI/CD pipelines – NCC Group Research](https://research.nccgroup.com/2022/01/13/10-real-world-stories-of-how-weve-compromised-ci-cd-pipelines/)
-- [Securing DevOps — Review of Approaches | by Arseny Chernov | Medium](https://medium.com/@arsenyspb/securing-devops-review-of-approaches-a801742630ca)
+- [Intro To Docker: Why And How To Use Containers On Any System | Hackaday](https://hackaday.com/2018/09/05/intro-to-docker-why-and-how-to-use-containers-on-any-system/) - Just as quick introduction to Docker.
+- [10 real-world stories of how we’ve compromised CI/CD pipelines – NCC Group Research](https://research.nccgroup.com/2022/01/13/10-real-world-stories-of-how-weve-compromised-ci-cd-pipelines/) - Attackers and defenders increasingly understand that build pipelines are highly-privileged targets with a substantial attack surface.
+- [Securing DevOps — Review of Approaches | by Arseny Chernov | Medium](https://medium.com/@arsenyspb/securing-devops-review-of-approaches-a801742630ca) - Touches upon Docker and Kubernetes security.
 
 
 ## Top 10 vulnerabilities
 
-- [OWASP Top 10:2021](https://owasp.org/Top10/)
+- [OWASP Top 10:2021](https://owasp.org/Top10/) - The most well-known ranking of most common vulnerabilities in web applications, from OWASP.
 - [OWASP Top Ten project](https://owasp.org/www-project-top-ten/) - The OWASP Top 10 is the reference standard for the most critical web application security risks.
-- [Why is Server-Side Request Forgery #10 in OWASP Top 10 2021?](https://www.securityjourney.com/post/why-is-server-side-request-forgery-10-in-owasp-top-10-2021)
+- [Why is Server-Side Request Forgery #10 in OWASP Top 10 2021?](https://www.securityjourney.com/post/why-is-server-side-request-forgery-10-in-owasp-top-10-2021) - Why does the appsec community at large find SSRF such a threat to code security?
 
 ## Security of third-party dependencies
 
 - [Pushing Left, Like a Boss — Part 5.2- Use Safe Dependencies – We Hack Purple](https://wehackpurple.com/5-2-safe-dependencies/) - Includes a non-exhaustive list of software that scans 3rd party components for security vulnerabilities, also known as Software Composition Analysis (SCA).
-- [OWASP Dependency-Check Project | OWASP](https://owasp.org/www-project-dependency-check/)
-- [Component Analysis | OWASP](https://owasp.org/www-community/Component_Analysis) - Includes a list of SCA tools.
-- [Sonatype OSS index](https://ossindex.sonatype.org/)
-- [The unfortunate reality of insecure libraries](https://cdn2.hubspot.net/hub/203759/file-1100864196-pdf/docs/Contrast_-_Insecure_Libraries_2014.pdf)- Article.
+- [OWASP Dependency-Check Project | OWASP](https://owasp.org/www-project-dependency-check/) - Software Composition Analysis (SCA) tool that attempts to detect publicly disclosed vulnerabilities contained within a project's dependencies.
+- [Component Analysis | OWASP](https://owasp.org/www-community/Component_Analysis) - Includes a list of SCA tools and a good definition for concepts like provenance and pedigree.
+- [Sonatype OSS index](https://ossindex.sonatype.org/) - Free catalogue of open source components and scanning tools to help developers identify vulnerabilities, understand risk, and keep their software safe.
+- [The unfortunate reality of insecure libraries](https://cdn2.hubspot.net/hub/203759/file-1100864196-pdf/docs/Contrast_-_Insecure_Libraries_2014.pdf)- Article. In partnership with Sonatype, researchers from Aspect Security analyzed 113 million downloads from the Central Repository of the 31 most popular Java frameworks and security libraries and made some conclusions about this
+important aspect of application security. 
 - [Dependency Hijacking Software Supply Chain Attack Hits More Than 35 Organizations](https://blog.sonatype.com/dependency-hijacking-software-supply-chain-attack-hits-more-than-35-organizations) - Article, february 2021.
-- [The State of Open Source Security Vulnerabilities 2021 by WhiteSource](https://www.whitesourcesoftware.com/wp-content/media/2021/04/the-state-of-open-source-vulnerabilities-2021.pdf)
-- [[Analyst Report] 2021 Open Source Security and Analysis Report](https://www.synopsys.com/software-integrity/resources/analyst-reports/open-source-security-risk-analysis.html)
-- [The internet runs on free open-source software. Who pays to fix it? | MIT Technology Review](https://www.technologyreview.com/2021/12/17/1042692/log4j-internet-open-source-hacking/)
+- [[Analyst Report] 2021 Open Source Security and Analysis Report](https://www.synopsys.com/software-integrity/resources/analyst-reports/open-source-security-risk-analysis.html) - The 2022 “Open Source Security and Risk Analysis” report examines vulnerabilities and license conflicts found in more than 2400 codebases across 17 industries. The report offers recommendations to help security, legal, risk, and development teams better understand the security and risk landscape accompanying open source development and use.
+- [The internet runs on free open-source software. Who pays to fix it? | MIT Technology Review](https://www.technologyreview.com/2021/12/17/1042692/log4j-internet-open-source-hacking/) - Volunteer-run projects like Log4J keep the internet running. The result is unsustainable burnout, and a national security risk when they go wrong.
 
 
 
 ## Security in software supply chain
 
-- [tag-security/supply-chain-security/supply-chain-security-paper](https://github.com/cncf/tag-security/tree/main/supply-chain-security/supply-chain-security-paper)
-- [Towards better vendor security assessments - Dropbox](https://dropbox.tech/security/towards-better-vendor-security-assessments)
+- [tag-security/supply-chain-security/supply-chain-security-paper](https://github.com/cncf/tag-security/tree/main/supply-chain-security/supply-chain-security-paper) - CNCF Security Technical Advisory Group effort to ensure the cloud native community has access to information about building, distributing, deploying, and running secure software supply chains.
+- [Towards better vendor security assessments - Dropbox](https://dropbox.tech/security/towards-better-vendor-security-assessments) - Results of an experiment Dropbox did to improve vendor security assessments—directly codifying reasonable security requirements into their vendor contracts.
 - [What Constitutes a Software Supply Chain Attack?](https://blog.sonatype.com/what-constitutes-a-software-supply-chain-attack?)
 - [2021 State of Software Supply Chain - Sonatype report](https://www.sonatype.com/hubfs/Q3%202021-State%20of%20the%20Software%20Supply%20Chain-Report/SSSC-Report-2021_0913_PM_2.pdf)
 - [Why You Need a Software Bill of Materials More Than Ever](https://blog.sonatype.com/why-you-need-a-software-bill-of-materials-more-than-ever)
