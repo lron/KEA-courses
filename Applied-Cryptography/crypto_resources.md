@@ -24,7 +24,7 @@
 - [Cryptographically secure randomness](#cryptographically-secure-randomness)
 - [PGP](#pgp)
 - [JWT](#jwt)
-- [Certificates](#certificates) 
+- [Certificates](#certificates)
 - [TLS](#tls)
 - [Secret sharing](#secret-sharing)
 - [Secure chats](#secure-chats)
@@ -32,89 +32,75 @@
 - [Links on crypto in general](#links-on-crypto-in-general)
 - [Crypto challenges](#crypto-challenges)
 
-
-
 ## Introduction and classical crypto
 
-- [Schneier's Law - Schneier on Security](https://www.schneier.com/blog/archives/2011/04/schneiers_law.html)
-- [Stack Overflow Considered Harmful? The Impact of Copy&Paste on Android Application Security | IEEE Conference Publication](https://ieeexplore.ieee.org/document/7958574)
+- [Schneier's Law - Schneier on Security](https://www.schneier.com/blog/archives/2011/04/schneiers_law.html) - Article discussing those situations in which people believe they've created something secure, overlooking some obvious faults.
+- [Stack Overflow Considered Harmful? The Impact of Copy&Paste on Android Application Security | IEEE Conference Publication](https://ieeexplore.ieee.org/document/7958574) - Paper quantifying the proliferation of security-related code snippets from Stack Overflow in Android applications.
 - [Welcome to pycipher’s documentation! — pycipher 1 documentation](https://pycipher.readthedocs.io/en/master/#caesar-cipher) - Python library implementing Caesar and other classical crypto ciphers.
-- [Caesar cipher - Rosetta Code](https://rosettacode.org/wiki/Caesar_cipher)
+- [Caesar cipher - Rosetta Code](https://rosettacode.org/wiki/Caesar_cipher) - Yet another implementation of Caesar cipher.
 - [Cracking Enigma in 2021 - Computerphile - YouTube](https://www.youtube.com/watch?v=RzWB5jL5RX0) - Approx. 21min video explaining how surprisingly difficult it would still be to crack Enigma with today's computer power.
 - [WWII Enigma Machine: The Enigma Project - YouTube](https://www.youtube.com/watch?v=elYw4Ve4F-I) - Approx. 5min video showing how the Enigma machine looks and works.
 - [Cracking the NAZI Enigma Code Machine - YouTube](https://www.youtube.com/watch?v=Hb44bGY2KdU) - Approx. 9min video showing how the Enigma machine was cracked.
 
-
 ## Frequency analysis
 
-- [Frequency Analysis: Breaking the Code](http://crypto.interactive-maths.com/frequency-analysis-breaking-the-code.html)
-- [Frequency Analysis Tool](https://www.dcode.fr/frequency-analysis)
-
+- [Frequency Analysis: Breaking the Code](http://crypto.interactive-maths.com/frequency-analysis-breaking-the-code.html) - Provides a very good explanation, together with examples, of frequency analysis.
+- [Frequency Analysis Tool](https://www.dcode.fr/frequency-analysis) - Tools for frequency analysis, a cryptanalysis method studying the frequency of letters or groups of characters in a ciphered message.
 
 ## OTP
 
-- [One-Time Pads – Cryptosmith](https://cryptosmith.com/2007/06/09/one-time-pads/)
+- [One-Time Pads – Cryptosmith](https://cryptosmith.com/2007/06/09/one-time-pads/) - Very good explanation of OTP and why they are impractical.
 - [Is OTP useful in modern electronic communication? - Cryptography Stack Exchange](https://crypto.stackexchange.com/a/11205) - Talks about problems of OTP.
-- [The one-time pad (video) | Cryptography | Khan Academy](https://www.khanacademy.org/computing/computer-science/cryptography/crypt/v/one-time-pad) - Approx. 3min video.
-- [One Time Pad FAQ](http://www.ranum.com/security/computer_security/papers/otp-faq/index.htm)
-- [Travis Dazell: Many Time Pad Attack - Crib Drag](http://travisdazell.blogspot.com/2012/11/many-time-pad-attack-crib-drag.html)
-- [Bruce Schneier’s List of Snake Oil Warning Signs – Internet Salmagundi](https://internet-salmagundi.com/2020/05/bruce-schneiers-list-of-snake-oil-warning-signs/)
-
-
+- [The one-time pad (video) | Cryptography | Khan Academy](https://www.khanacademy.org/computing/computer-science/cryptography/crypt/v/one-time-pad) - Approx. 3min video explanation of OTP.
+- [One Time Pad FAQ](http://www.ranum.com/security/computer_security/papers/otp-faq/index.htm) - Questiions and answers about OTP, especially interesting is the discussion about what can be used as a pad.
+- [Travis Dazell: Many Time Pad Attack - Crib Drag](http://travisdazell.blogspot.com/2012/11/many-time-pad-attack-crib-drag.html) - This tutorial shows what happens when you re-use a key to encrypt more than one message in OTP and also shows how to uncover the plaintext of two messages that have been encrypted with the same key, without even knowing the key.
+- [Bruce Schneier’s List of Snake Oil Warning Signs – Internet Salmagundi](https://internet-salmagundi.com/2020/05/bruce-schneiers-list-of-snake-oil-warning-signs/) - Typical expressions and terms used for false claims about security.
 
 ## Block ciphers
 
-- [Ch4 of the book Serious Cryptography](https://nostarch.com/download/SeriousCryptography_Chapter4_sample.pdf) - Free chapter.
-- [Using padding in encryption](https://www.di-mgt.com.au/cryptopad.html)
-- [A Stick Figure Guide to the Advanced Encryption Standard (AES)](http://www.moserware.com/2009/09/stick-figure-guide-to-advanced.html) - The famous comic strip explaining AES.
+- [Ch4 of the book Serious Cryptography](https://nostarch.com/download/SeriousCryptography_Chapter4_sample.pdf) - Free chapter on Block Ciphers.
+- [Using padding in encryption](https://www.di-mgt.com.au/cryptopad.html) - Explains the different padding mechanisms that can be used in block ciphers.
+- [A Stick Figure Guide to the Advanced Encryption Standard (AES)](http://www.moserware.com/2009/09/stick-figure-guide-to-advanced.html) - The famous comic strip explaining the history of AES.
 - [AES Rijndael Cipher - Visualization - YouTube](https://www.youtube.com/watch?v=mlzxpkdXP58) - Approx. 3min video. With a few errors, though, but gives a good general idea on how AES works.
 - [Ch6 of the (free) book "Crypto 101"](https://www.crypto101.io/Crypto101.pdf) - See pp41-44 for DES and 3DES.
 - [Modes of Operation - Computerphile - YouTube](https://www.youtube.com/watch?v=Rk0NIQfEXBA) - Approx. 14min video about ECB, CBC and CTR.
-- [How secure is 256 bit security? - YouTube](https://www.youtube.com/watch?v=S9JGmA5_unY)
-
+- [How secure is 256 bit security? - YouTube](https://www.youtube.com/watch?v=S9JGmA5_unY) - How hard is it to find a 256-bit hash just by guessing and checking? 5min video comparing the difficulty of such a guess with elements in the universe.
 
 ## Modes of operation
 
-- [GitHub - robertdavidgraham/ecb-penguin: ECB penguin](https://github.com/robertdavidgraham/ecb-penguin)
-- [How to choose an Authenticated Encryption mode – A Few Thoughts on Cryptographic Engineering](https://blog.cryptographyengineering.com/2012/05/19/how-to-choose-authenticated-encryption/) - From Matthew Green's blog.
+- [How to choose an Authenticated Encryption mode – A Few Thoughts on Cryptographic Engineering](https://blog.cryptographyengineering.com/2012/05/19/how-to-choose-authenticated-encryption/) - From Matthew Green's blog. Focuses on authenticated encryption (encryption that ensures integrity and confidentiality at the same time).
 - [Zoom’s Flawed Encryption Linked to China](https://theintercept.com/2020/04/03/zooms-encryption-is-not-suited-for-secrets-and-has-surprising-links-to-china-researchers-discover/) - Article talking about the (weak) encryption that Zoom was using back in 2020.
-- [Zoom Finally Takes Encryption Seriously: And Goes All GCM | by Prof Bill Buchanan OBE | ASecuritySite: When Bob Met Alice | Medium](https://medium.com/asecuritysite-when-bob-met-alice/zoom-finally-takes-encryption-seriously-and-goes-all-gcm-2e1203a7274b)
-- [Zoom encryption whitepaper](https://www.usm.edu/itech/_files/zoom_encryption_whitepaper.pdf)
-- [How to choose an AES encryption mode (CBC ECB CTR OCB CFB)? - Stack Overflow](https://stackoverflow.com/questions/1220751/how-to-choose-an-aes-encryption-mode-cbc-ecb-ctr-ocb-cfb/42658861#42658861)
-
+- [Zoom Finally Takes Encryption Seriously: And Goes All GCM | by Prof Bill Buchanan OBE | ASecuritySite: When Bob Met Alice | Medium](https://medium.com/asecuritysite-when-bob-met-alice/zoom-finally-takes-encryption-seriously-and-goes-all-gcm-2e1203a7274b) - Explains the improvements made to Zoom encryption and the aspects that still need to be improved.
+- [Zoom encryption whitepaper](https://www.usm.edu/itech/_files/zoom_encryption_whitepaper.pdf) - This whitepaper shows the weak encryption Zoom was using in 2020.
+- [How to choose an AES encryption mode (CBC ECB CTR OCB CFB)? - Stack Overflow](https://stackoverflow.com/questions/1220751/how-to-choose-an-aes-encryption-mode-cbc-ecb-ctr-ocb-cfb/42658861#42658861) - Interesting Stack Overflow thread about which mode of operation to go for, depending on the situation. Current recommendations are in favour of AES-GCM.
+- [GitHub - robertdavidgraham/ecb-penguin: ECB penguin](https://github.com/robertdavidgraham/ecb-penguin) - Demons of the famous ECB penguin using Openssl.
 
 ## Padding oracle attacks
 
-- [Cryptography - Padding Oracle Attacks - YouTube](https://www.youtube.com/watch?v=aH4DENMN_O4) - Approx. 17min video.
-- [CBC Padding Oracle Attacks Simplified – Key concepts and pitfalls | The Grymoire](https://grymoire.wordpress.com/2014/12/05/cbc-padding-oracle-attacks-simplified-key-concepts-and-pitfalls/)
-
+- [Cryptography - Padding Oracle Attacks - YouTube](https://www.youtube.com/watch?v=aH4DENMN_O4) - Approx. 17min video explaining an attack that takes advantage of the error messages received from a web server when decrypting a ciphertext that contains padding.
+- [CBC Padding Oracle Attacks Simplified – Key concepts and pitfalls | The Grymoire](https://grymoire.wordpress.com/2014/12/05/cbc-padding-oracle-attacks-simplified-key-concepts-and-pitfalls/) - Padding oracle attack explained in a simpler way.
 
 ## RC4
 
-- [The Misuse of RC4 in Microsoft Word and Excel (scientific paper)](https://eprint.iacr.org/2005/007.pdf)
-- [Fluhrer, Mantin and Shamir attack - Wikipedia](https://en.wikipedia.org/wiki/Fluhrer,_Mantin_and_Shamir_attack) - Attack to WEP encryption.
-
+- [The Misuse of RC4 in Microsoft Word and Excel (scientific paper)](https://eprint.iacr.org/2005/007.pdf) - Paper from 2005 pointing out at a security flaw that Microsoft Word and Excel had regarding their use of RC4 cipher.
+- [Fluhrer, Mantin and Shamir attack - Wikipedia](https://en.wikipedia.org/wiki/Fluhrer,_Mantin_and_Shamir_attack) - Attack to RC4 cipher used in WEP encryption of WiFi networks.
 
 ## WiFi encryption
 
-- [Key Reinstallation Attacks: Forcing Nonce Reuse in WPA2 (scientific paper)](https://papers.mathyvanhoef.com/ccs2017.pdf) - Attack on WPA2.
-- [WPA3 security considerations](https://www.wi-fi.org/download.php?file=/sites/default/files/private/WPA3_Security_Considerations_201911.pdf) - WiFi alliance report.
-
+- [Key Reinstallation Attacks: Forcing Nonce Reuse in WPA2 (scientific paper)](https://papers.mathyvanhoef.com/ccs2017.pdf) - Attack on WPA2, abusing design or implementation flaws in cryptographic protocols to reinstall an already-in-use key.
 
 ## Storage encryption
 
-- [Google Online Security Blog: Introducing Adiantum: Encryption for the Next Billion Users](https://security.googleblog.com/2019/02/introducing-adiantum-encryption-for.html)
-
+- [Google Online Security Blog: Introducing Adiantum: Encryption for the Next Billion Users](https://security.googleblog.com/2019/02/introducing-adiantum-encryption-for.html) - Article discussing disk and file encryption and why they are specially challenging when compared to in-transit encryption.
 
 ## RSA
 
-- [Why some cryptographic keys are much smaller than others](https://blog.cloudflare.com/why-are-some-keys-small/)
-- [Millions of high-security crypto keys crippled by newly discovered flaw | Ars Technica](https://arstechnica.com/information-technology/2017/10/crypto-failure-cripples-millions-of-high-security-keys-750k-estonian-ids/)
-- [Security Flaw in Infineon Smart Cards and TPMs - Schneier on Security](https://www.schneier.com/blog/archives/2017/10/security_flaw_i_1.html)
-- [Understanding Cryptography with RSA | by Ryan Canty | Medium](https://medium.com/@jryancanty/understanding-cryptography-with-rsa-74721350331f)
-- [The Full Story of the Stunning RSA Hack Can Finally Be Told | WIRED](https://www.wired.com/story/the-full-story-of-the-stunning-rsa-hack-can-finally-be-told/)
-- [RSA: Over 40 Years Old and Still Amazing! — Let’s Crack It | by Prof Bill Buchanan OBE | Medium](https://medium.com/asecuritysite-when-bob-met-alice/rsa-over-40-years-old-and-still-amazing-lets-crack-it-6eaf279326c3)
-
+- [Why some cryptographic keys are much smaller than others](https://blog.cloudflare.com/why-are-some-keys-small/) - Comparison of key lengths in symmetric and asymmetric encryption and why they are so different.
+- [Millions of high-security crypto keys crippled by newly discovered flaw | Ars Technica](https://arstechnica.com/information-technology/2017/10/crypto-failure-cripples-millions-of-high-security-keys-750k-estonian-ids/) - Factorization weakness lets attackers impersonate key holders and decrypt their data.
+- [Security Flaw in Infineon Smart Cards and TPMs - Schneier on Security](https://www.schneier.com/blog/archives/2017/10/security_flaw_i_1.html) -  The flaw allowed an attacker to recover private keys from the public keys.
+- [Understanding Cryptography with RSA | by Ryan Canty | Medium](https://medium.com/@jryancanty/understanding-cryptography-with-rsa-74721350331f) - Easy-to-understand mathematical explanation of RSA.
+- [The Full Story of the Stunning RSA Hack Can Finally Be Told | WIRED](https://www.wired.com/story/the-full-story-of-the-stunning-rsa-hack-can-finally-be-told/) - The article explains how Chinese spies stole the crown jewels of cybersecurity—stripping protections from firms and government agencies worldwide in 2011.
+- [RSA: Over 40 Years Old and Still Amazing! — Let’s Crack It | by Prof Bill Buchanan OBE | Medium](https://medium.com/asecuritysite-when-bob-met-alice/rsa-over-40-years-old-and-still-amazing-lets-crack-it-6eaf279326c3) - Explains how to solve some RSA challenges.
 
 ## Libsodium crypto library
 
@@ -123,7 +109,6 @@
 - [Introducing Sodium, a new Cryptographic Library](https://umbrella.cisco.com/blog/announcing-sodium-a-new-cryptographic-library)
 - [Crypto is Broken or How to Apply Secure Crypto as a Developer - codecentric AG Blog](https://blog.codecentric.de/en/2014/03/crypto-broken-apply-secure-crypto-developer/)
 - [Installation — PyNaCl 1.5.0.dev1 documentation](https://pynacl.readthedocs.io/en/latest/install/) - Python wrapper for Libsodium library.
-
 
 ## Quantum cryptography
 
@@ -134,11 +119,9 @@
 - [Understanding and explaining post-quantum crypto with cartoons](https://www.rsaconference.com/Library/presentation/USA/2020/understanding-and-explaining-post-quantum-crypto-with-cartoons)
 - [GitHub - veorq/awesome-post-quantum](https://github.com/veorq/awesome-post-quantum) - A curated list of resources about post-quantum cryptography.
 
-
 ## Key exchange
 
 - [Is there any particular reason to use Diffie-Hellman over RSA for key exchange? - Stack Exchange](https://security.stackexchange.com/questions/35471/is-there-any-particular-reason-to-use-diffie-hellman-over-rsa-for-key-exchange#:~:text=That%20part%20is%20about%20reducing,for%20DH%20than%20for%20RSA.)
-
 
 ## Logjam attack
 
@@ -146,7 +129,6 @@
 - [LogJam Attack Explained. To understand DH key exchange, let’s… | by c0D3M | Medium](https://medium.com/@c0D3M/logjam-attack-explained-829d62d951a6)
 - [cryptography - "Diffie-Hellman Key Exchange" in plain English - Stack Exchange](https://security.stackexchange.com/questions/45963/diffie-hellman-key-exchange-in-plain-english)
 - [J. Alex Halderman, Nadia Heninger: Logjam: Diffie-Hellman, discrete logs, the NSA, and you - YouTube](https://youtu.be/mS8gm-_rJgM) - Approx. 1h video. Most presentations from Alex Halderman are very entertaining.
-
 
 ## Ransomware
 
@@ -163,7 +145,6 @@
 - [How does a computer become infected with ransomware? - YouTube](https://youtu.be/v-ITcpD1KcQ) - 1min video showing a ransomware attack in action.
 - [Leakware-Ransomware-Hybrid Attacks - Hornetsecurity](https://www.hornetsecurity.com/en/security-informationen-en/leakware-ransomware-hybrid-attacks/)
 - [LockFile Ransomware Uses Unique Methods to Avoid Detection | eSecurityPlanet](https://www.esecurityplanet.com/threats/lockfile-ransomware-evasion-rechniques/)
-
 
 ## Hashing
 
@@ -186,24 +167,20 @@
 - [Response UX response times](https://www.nngroup.com/articles/response-times-3-important-limits/) - Useful to follow when designing login systems where passwords are stored using KDFs.
 - [Have I Been Pwned: API v3](https://haveibeenpwned.com/API/v3#SearchingPwnedPasswordsByRange)
 
-
 ## ECDSA signature
 
 - [CVE-2022-21449: Psychic Signatures in Java – Neil Madden](https://neilmadden.blog/2022/04/19/psychic-signatures-in-java/)
 - [Not Playing Randomly: The Sony PS3 and Bitcoin Crypto Hacks | by Prof Bill Buchanan OBE | Medium](https://medium.com/asecuritysite-when-bob-met-alice/not-playing-randomly-the-sony-ps3-and-bitcoin-crypto-hacks-c1fe92bea9bc)
 - [Recovering The Private Key in a ECDSA Signature Using A Single Random Nonce | by Prof Bill Buchanan OBE | ASecuritySite: When Bob Met Alice | Medium](https://medium.com/asecuritysite-when-bob-met-alice/cracking-ecdsa-with-a-leak-of-the-random-nonce-d72c67f201cd)
 
-
 ## Sign+encrypt
 
 - [Which one is more preferable, encrypt-then-sign or sign-then-encrypt? - Quora](https://www.quora.com/Which-one-is-more-preferable-encrypt-then-sign-or-sign-then-encrypt?share=1) - It's not the same to encrypt and then sign, than signing and then encrypting it.
-
 
 ## Cryptographically secure randomness
 
 - [Myths about /dev/urandom \[Thomas Hühn\]](https://www.2uo.de/myths-about-urandom/)
 - [A Critical Random Number Generator Flaw Affects Billions of IoT Devices](https://thehackernews.com/2021/08/a-critical-random-number-generator-flaw.html)
-
 
 ## PGP
 
@@ -213,20 +190,17 @@
 - [StackExchange/blackbox](https://github.com/StackExchange/blackbox) - Safely store and encrypt secrets in Git/Mercurial/Subversion using GPG.
 - [Git-secret.io](https://git-secret.io/) - Encrypts files in your git repository using GPG.
 
-
 ## JWT
 
 - [Public Claims and How to validate a JWT](https://medium.com/dataseries/public-claims-and-how-to-validate-a-jwt-1d6c81823826)
 - [jwt.io/](https://jwt.io/) - Allows to validate certain JWT.
 - [GitHub - foundersandcoders/ws-jwt-stateless-session: Week 7 - Session Management Workshop](https://github.com/foundersandcoders/ws-jwt-stateless-session)
 
-
-## Certificates 
+## Certificates
 
 - [Understanding TLS Certificates. A Quick Introduction to TLS… | by Ravi | Demystifying Security | Medium](https://medium.com/demystifying-security/understanding-tls-certificates-76bdd5815d95)
 - [Your Guide to X509 Certificates (For Mortals)](https://adamtheautomator.com/x509-certificates/)
 - [PEM, DER, CRT, and CER: X.509 Encodings and Conversions](https://www.ssl.com/guide/pem-der-crt-and-cer-x-509-encodings-and-conversions/)
-
 
 ## TLS
 
@@ -250,7 +224,6 @@
 - [RFC 7457 - Summarizing Known Attacks on Transport Layer Security (TLS) and Datagram TLS (DTLS)](https://datatracker.ietf.org/doc/html/rfc7457)
 - [What's the difference between end-to-end and regular TLS encryption? - Information Security Stack Exchange](https://security.stackexchange.com/questions/157292/whats-the-difference-between-end-to-end-and-regular-tls-encryption) - Yes, strictly speaking TLS doesn't provide end-to-end encryption.
 
-
 ## Secret sharing
 
 - [Are there any "real world" implementations of secret-sharing encryption schemes? - Stack Exchange](https://security.stackexchange.com/questions/5410/are-there-any-real-world-implementations-of-secret-sharing-encryption-schemes)
@@ -259,18 +232,15 @@
 - [An Order of Seven Global Cyber-Guardians Now Hold Keys to the Internet](https://www.popsci.com/technology/article/2010-07/order-seven-cyber-guardians-around-world-now-hold-keys-internet/)
 - [Shamir's Secret Sharing Shortcomings](https://blog.keys.casa/shamirs-secret-sharing-security-shortcomings/) - Interesting article that points at some of the reasons why the concept, despite sounding revolutionary, is not in practice used more often.
 
-
 ## Secure chats
 
 - [Double Ratchet Messaging Encryption - Computerphile - YouTube](https://www.youtube.com/watch?v=9sO2qdTci-s)
-
 
 ## Books available online
 
 - [Crypto 101](https://www.crypto101.io/Crypto101.pdf)
 - [Handbook of Applied Cryptography](http://cacr.uwaterloo.ca/hac/)
 - [Security Engineering - Dependable Distributed Systems (free 3rd edition)](http://www.cl.cam.ac.uk/~rja14/book.html) - The book has a few chapters devoted to cryptography.
-
 
 ## Links on crypto in general
 
@@ -284,7 +254,6 @@
 - [CrypTool](https://www.cryptool.org/en/) - Very interesting portal with cryptography programs, resources and tools.
 - [Schneier on Security: Crypto-gram newsletter](https://www.schneier.com/crypto-gram/) - Very interesting cryptography newsletter good to be subscribed to.
 - [Cryptii](https://cryptii.com/) - Web app offering modular conversion, encoding and encryption online.
-
 
 ## Crypto challenges
 
