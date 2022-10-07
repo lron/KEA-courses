@@ -104,24 +104,25 @@
 
 ## Libsodium crypto library
 
-- [Timing attacks and usernames - Brendan Long](https://www.brendanlong.com/timing-attacks-and-usernames.html)
-- [How to Safely Implement Cryptography Features in Any Application](https://paragonie.com/blog/2015/09/how-to-safely-implement-cryptography-in-any-application)
-- [Introducing Sodium, a new Cryptographic Library](https://umbrella.cisco.com/blog/announcing-sodium-a-new-cryptographic-library)
-- [Crypto is Broken or How to Apply Secure Crypto as a Developer - codecentric AG Blog](https://blog.codecentric.de/en/2014/03/crypto-broken-apply-secure-crypto-developer/)
-- [Installation — PyNaCl 1.5.0.dev1 documentation](https://pynacl.readthedocs.io/en/latest/install/) - Python wrapper for Libsodium library.
+- [Timing attacks and usernames - Brendan Long](https://www.brendanlong.com/timing-attacks-and-usernames.html) - Timing attacks in authentication, to better understand the concept of the attack itself, which can then be applied to cryptography.
+- [How to Safely Implement Cryptography Features in Any Application](https://paragonie.com/blog/2015/09/how-to-safely-implement-cryptography-in-any-application) - Exposes reasons to use Libsodium cryptographic library instead of other libraries like Mcrypt, Openssl, Bouncy Castle or KeyCZar.
+- [Introducing Sodium, a new Cryptographic Library](https://umbrella.cisco.com/blog/announcing-sodium-a-new-cryptographic-library) -  No matter how secure a function is, its security can be totally destroyed by a tiny weakness in its implementation or by using it incorrectly. Libsodium helps preventing this.
+- [Crypto is Broken or How to Apply Secure Crypto as a Developer - codecentric AG Blog](https://blog.codecentric.de/en/2014/03/crypto-broken-apply-secure-crypto-developer/) - This article shows how difficult it is to get crypto right, even if you have the best intentions. It is insufficient to just use the right libraries. NaCl and Libsodium offer a simple way to avoid knowing all the nasty details while providing strong crypto.
+- [Installation — PyNaCl documentation](https://pynacl.readthedocs.io/en/latest/install/) - One of the existing Python wrappers for Libsodium library.
 
 ## Quantum cryptography
 
-- [Post-Quantum Cryptography | CSRC](https://csrc.nist.gov/projects/post-quantum-cryptography)
-- [Post-Quantum Cryptography: Q&A with Jean-Philippe Aumasson](https://www.infoq.com/news/2021/04/post-quantum-crypto-aumasson-qa/)
+- [NIST's pleasant post-quantum surprise](https://blog.cloudflare.com/nist-post-quantum-surprise/) - Very nice long article presenting the post-quantum cryptography algorithms that will be standardized by NIST, as a result of the third round in the contest.
+- [Post-Quantum Cryptography | CSRC](https://csrc.nist.gov/projects/post-quantum-cryptography) - NIST initiated a process to solicit, evaluate, and standardize one or more quantum-resistant public-key cryptographic algorithms.
+- [Post-Quantum Cryptography: Q&A with Jean-Philippe Aumasson](https://www.infoq.com/news/2021/04/post-quantum-crypto-aumasson-qa/) - Interesting interview to cryptography researcher Jean-Philippe Aumasson to understand where post-quantum crypto is headed.
 - [Will Quantum Computers break encryption? - YouTube](https://www.youtube.com/watch?v=6H_9l9N3IXU&t=776s) - Approx. 15min video. Very interesting and easy to understand.
 - [Quantum Computing and Post-Quantum Cryptography](https://media.defense.gov/2021/Aug/04/2002821837/-1/-1/1/Quantum_FAQs_20210804.PDF) - FAQ by NSA. From Aug.2021.
-- [Understanding and explaining post-quantum crypto with cartoons](https://www.rsaconference.com/Library/presentation/USA/2020/understanding-and-explaining-post-quantum-crypto-with-cartoons)
+- [Understanding and explaining post-quantum crypto with cartoons](https://www.rsaconference.com/Library/presentation/USA/2020/understanding-and-explaining-post-quantum-crypto-with-cartoons) - Explains how post-quantum cryptography works with a 100 percent cartoon-based slide show. All cartoon stories presented refer to easy-to-understand analogies. No advanced mathematical skills are required.
 - [GitHub - veorq/awesome-post-quantum](https://github.com/veorq/awesome-post-quantum) - A curated list of resources about post-quantum cryptography.
 
 ## Key exchange
 
-- [Is there any particular reason to use Diffie-Hellman over RSA for key exchange? - Stack Exchange](https://security.stackexchange.com/questions/35471/is-there-any-particular-reason-to-use-diffie-hellman-over-rsa-for-key-exchange#:~:text=That%20part%20is%20about%20reducing,for%20DH%20than%20for%20RSA.)
+- [Is there any particular reason to use Diffie-Hellman over RSA for key exchange? - Stack Exchange](https://security.stackexchange.com/questions/35471/is-there-any-particular-reason-to-use-diffie-hellman-over-rsa-for-key-exchange#:~:text=That%20part%20is%20about%20reducing,for%20DH%20than%20for%20RSA.) - Compares the RSA-based key exchange and Diffi-Hellman key exchange methods.
 
 ## Logjam attack
 
