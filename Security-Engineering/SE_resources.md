@@ -3,18 +3,22 @@
 ## Contents
 
 ### Lecture 1
+
 - [Security by design](#security-by-design)
 - [Privacy and data protection by design](#privacy-and-data-protection-by-design)
 
 ### Lecture 2
+
 - [Knowledge base on attacks](#knowledge-base-on-attacks)
 - [Threat modeling](#threat-modeling)
 
 ### Lecture 3
+
 - [Attack trees](#attack-trees)
 - [Risk rating and assessment](#risk-rating-and-assessment)
 
 ### Lecture 4
+
 - [Secure SDLC](#secure-sdlc)
 - [Security requirements](#security-requirements)
 - [Abuse cases](#abuse-cases)
@@ -22,29 +26,40 @@
 - [Securing web application technologies (SWAT)](#securing-web-application-technologies-swat)
 
 ### Lecture 5
+
 - [Code review](#code-review)
 - [Heartbleed vulnerability](#heartbleed-vulnerability)
 - [iOS SSL flaw](#ios-ssl-flaw)
 - [Secrets leakage](#secrets-leakage)
+
 ### Lecture 6
+
 - [Container and CI/CD pipeline security](#container-and-cicd-pipeline-security)
 - [Top 10 vulnerabilities](#top-10-vulnerabilities)
 - [Security of third-party dependencies](#security-of-third-party-dependencies)
 - [Security in software supply chain](#security-in-software-supply-chain)
-### Remaining lectures
-- [Formal verification](#formal-verification)
+
+### Lecture 7
+
 - [External security assessments](#external-security-assessments)
 - [Bug bounties](#bug-bounties)
 - [Deliberately vulnerable web applications](#deliberately-vulnerable-web-applications)
 - [Burp suite](#burp-suite)
 - [Fuzzing](#fuzzing)
 - [SQL injection (SQLi)](#sql-injection-sqli)
+
+### Lecture 8
+
 - [Command injection vulnerabilities](#command-injection-vulnerabilities)
 - [Cross-site scripting (XSS)](#cross-site-scripting-xss)
+
+### Remaining lectures
+
 - [Ariane V launch accident](#ariane-v-launch-accident)
 - [Buffer overflow](#buffer-overflow)
 - [CRLF injection attacks](#crlf-injection-attacks)
 - [Logs](#logs)
+- [Formal verification](#formal-verification)
 - [Security Culture](#security-culture)
 - [Blameless postmortem investigations](#blameless-postmortem-investigations)
 - [Security champions](#security-champions)
@@ -128,7 +143,6 @@
 - [OWASP Risk calculator](https://www.security-net.biz/files/owaspriskcalc.html)
 - [GitHub - JavierOlmedo/OWASP-Calculator](https://github.com/JavierOlmedo/OWASP-Calculator) - An online calculator to assess the risk of web vulnerabilities based on OWASP Risk Assessment.
 
-
 ## Secure SDLC
 
 - [Security by design framework. Version 1.0. CSA Singapore.](https://www.csa.gov.sg/~/media/csa/documents/legislation_supplementary_references/security_by_design_framework.pdf) - Framework that proposes building security by design by integrating security into the SDLC.
@@ -157,7 +171,7 @@
 - [GitHub - TaptuIT/awesome-devsecops: Curating the best DevSecOps resources and tooling](https://github.com/TaptuIT/awesome-devsecops)
 - [Ultimate DevSecOps library](https://github.com/sottlmarek/DevSecOps) - Like an "awesome" repository but without being an official one. Very complete as well.
 - [Periodic Table of DevOps Tools](https://digital.ai/devops-tools-periodic-table) - Industry's go-to resource for identifying best-of-breed tools across the software delivery lifecycle.
-- [How to deploy a comprehensive DevSecOps solution (Red Hat)](https://www.redhat.com/en/resources/deploy-comprehensive-devsecops-solution-overview) - Framework by Red Hat that provides a solid foundation and blueprint for delivering DevSecOps solutions that deploy and scale more efficiently. 
+- [How to deploy a comprehensive DevSecOps solution (Red Hat)](https://www.redhat.com/en/resources/deploy-comprehensive-devsecops-solution-overview) - Framework by Red Hat that provides a solid foundation and blueprint for delivering DevSecOps solutions that deploy and scale more efficiently.
 - [DevSecOps Security Controls Infographic](https://accelera.com.au/wp-content/uploads/2020/09/Accelera-DevSecOps-Security-Controls-Infographic_v1.0_2020.pdf)
 
 ## Securing web application technologies (SWAT)
@@ -168,7 +182,7 @@
 
 - [OWASP Code Review Guide v.2](https://owasp.org/www-project-code-review-guide/) - Book covering the why and how of code reviews, and types of vulnerabilities and how to identify throughout the review.
 - [OWASP Benchmark of some static analysis tools](https://owasp.org/www-project-benchmark/) - Java test suite designed to evaluate the accuracy, coverage, and speed of automated software vulnerability detection tools, not only for SAST but also for DAST and IAST tools.
-- [OWASP Secure Coding Practices - Quick Reference Guide](https://owasp.org/www-pdf-archive/OWASP_SCP_Quick_Reference_Guide_v2.pdf) - Defines a set of general software security coding practices, in a checklist format, that can be integrated into the software development lifecycle. Implementation of these practices will mitigate most common software vulnerabilities. 
+- [OWASP Secure Coding Practices - Quick Reference Guide](https://owasp.org/www-pdf-archive/OWASP_SCP_Quick_Reference_Guide_v2.pdf) - Defines a set of general software security coding practices, in a checklist format, that can be integrated into the software development lifecycle. Implementation of these practices will mitigate most common software vulnerabilities.
 - [Don’t Underestimate Grep Based Code Scanning – Little Man In My Head](https://littlemaninmyhead.wordpress.com/2019/08/04/dont-underestimate-grep-based-code-scanning/) - Blog post covering grep-based code scanning, which is an old fashioned way of SAST scanning can still do reasonably well compared to expensive SAST tools in terms of quality of bugs found.
 - [List of Source Code Security Analyzers](https://samate.nist.gov/index.php/Source_Code_Security_Analyzers.html) - Long (and still probably non-exhaustive) list of source code scanners, by NIST, with information about licenses and the kind of vulnerabilities they each can find.
 - [List of Byte Code Scanners | NISTLock](https://samate.nist.gov/index.php/Byte_Code_Scanners.html)
@@ -180,7 +194,6 @@
 - [OWASP Secure Coding Practices-Quick Reference Guide](https://owasp.org/www-project-secure-coding-practices-quick-reference-guide/migrated_content) - Technology agnostic set of general software security coding practices, in a comprehensive checklist format, that can be integrated into the development lifecycle. The focus is on secure coding requirements, rather then on vulnerabilities and exploits.
 - [google/styleguide](https://github.com/google/styleguide) - Style guides and code conventions for Google-originated open-source projects.
 - [WebAppSec/Secure Coding Guidelines](https://wiki.mozilla.org/WebAppSec/Secure_Coding_Guidelines) - Establishes a concise and consistent approach to secure application development of Mozilla web applications and web services.
-
 
 ## Heartbleed vulnerability
 
@@ -201,7 +214,6 @@
 - [OWASP WrongSecrets | OWASP Foundation](https://owasp.org/www-project-wrongsecrets/) - This is the first Secrets Management-focused vulnerable/p0wnable app.
 - [Rewriting your git history, removing files permanently. Cheat sheet included.](https://blog.gitguardian.com/rewriting-git-history-cheatsheet/) - How to successfully and securely eliminate a secret or file from your git history, step by step.
 
-
 ## Container and CI/CD pipeline security
 
 - [Container security best practices: Comprehensive guide](https://sysdig.com/blog/container-security-best-practices/) - Good summary of container security best practices.
@@ -211,7 +223,6 @@
 - [Intro To Docker: Why And How To Use Containers On Any System | Hackaday](https://hackaday.com/2018/09/05/intro-to-docker-why-and-how-to-use-containers-on-any-system/) - Just as quick introduction to Docker.
 - [10 real-world stories of how we’ve compromised CI/CD pipelines – NCC Group Research](https://research.nccgroup.com/2022/01/13/10-real-world-stories-of-how-weve-compromised-ci-cd-pipelines/) - Attackers and defenders increasingly understand that build pipelines are highly-privileged targets with a substantial attack surface.
 - [Securing DevOps — Review of Approaches | by Arseny Chernov | Medium](https://medium.com/@arsenyspb/securing-devops-review-of-approaches-a801742630ca) - Touches upon Docker and Kubernetes security.
-
 
 ## Top 10 vulnerabilities
 
@@ -226,12 +237,10 @@
 - [Component Analysis | OWASP](https://owasp.org/www-community/Component_Analysis) - Includes a list of SCA tools and a good definition for concepts like provenance and pedigree.
 - [Sonatype OSS index](https://ossindex.sonatype.org/) - Free catalogue of open source components and scanning tools to help developers identify vulnerabilities, understand risk, and keep their software safe.
 - [The unfortunate reality of insecure libraries](https://cdn2.hubspot.net/hub/203759/file-1100864196-pdf/docs/Contrast_-_Insecure_Libraries_2014.pdf)- Article. In partnership with Sonatype, researchers from Aspect Security analyzed 113 million downloads from the Central Repository of the 31 most popular Java frameworks and security libraries and made some conclusions about this
-important aspect of application security. 
+important aspect of application security.
 - [Dependency Hijacking Software Supply Chain Attack Hits More Than 35 Organizations](https://blog.sonatype.com/dependency-hijacking-software-supply-chain-attack-hits-more-than-35-organizations) - Article, february 2021.
 - [[Analyst Report] 2021 Open Source Security and Analysis Report](https://www.synopsys.com/software-integrity/resources/analyst-reports/open-source-security-risk-analysis.html) - The 2022 “Open Source Security and Risk Analysis” report examines vulnerabilities and license conflicts found in more than 2400 codebases across 17 industries. The report offers recommendations to help security, legal, risk, and development teams better understand the security and risk landscape accompanying open source development and use.
 - [The internet runs on free open-source software. Who pays to fix it? | MIT Technology Review](https://www.technologyreview.com/2021/12/17/1042692/log4j-internet-open-source-hacking/) - Volunteer-run projects like Log4J keep the internet running. The result is unsustainable burnout, and a national security risk when they go wrong.
-
-
 
 ## Security in software supply chain
 
@@ -263,21 +272,18 @@ important aspect of application security.
 
 ## Bug bounties
 
-- [An Examination of the Bug Bounty Marketplace - Schneier on Security](https://www.schneier.com/blog/archives/2022/01/an-examination-of-the-bug-bounty-marketplace.html)
-- [A Tour Around the Bug Bounty Zoo. Your guide to different bug bounty… | by Vickie Li | Medium](https://medium.com/swlh/a-tour-around-the-bug-bounty-zoo-c63ccbf4d7cd)
-
+- [An Examination of the Bug Bounty Marketplace - Schneier on Security](https://www.schneier.com/blog/archives/2022/01/an-examination-of-the-bug-bounty-marketplace.html) - Covers risks and insecurities for hackers as gig workers, and how bounty programs rely on vulnerable workers to fix their vulnerable systems.
+- [A Tour Around the Bug Bounty Zoo | Medium](https://medium.com/swlh/a-tour-around-the-bug-bounty-zoo-c63ccbf4d7cd) - Guide about different bug bounty programs.
 
 ## Deliberately vulnerable web applications
 
-- [Awesome-vulnerable](https://github.com/kaiiyer/awesome-vulnerable)
-- [OWASP Vulnerable Web Applications Directory | OWASP Foundation](https://owasp.org/www-project-vulnerable-web-applications-directory)
-- [VulnHub](https://www.vulnhub.com/)
-
+- [Awesome-vulnerable](https://github.com/kaiiyer/awesome-vulnerable) - A curated list of vulnerable apps and systems which can be used as penetration testing practice lab.
+- [OWASP Vulnerable Web Applications Directory | OWASP Foundation](https://owasp.org/www-project-vulnerable-web-applications-directory) - Comprehensive and maintained registry of known vulnerable web and mobile applications currently available, classified in four categories: Online, Offline, Mobile, and VMs/ISOs.
+- [VulnHub](https://www.vulnhub.com/) - Vulnerable virtual machines.
 
 ## Burp Suite
 
 - [How to Burp Good – n00py Blog](https://www.n00py.io/2017/10/how-to-burp-good/)
-
 
 ## Fuzzing
 
@@ -290,9 +296,9 @@ important aspect of application security.
 - [OpenRCE/sulley](https://github.com/OpenRCE/sulley)
 - [GitHub - google/oss-fuzz: OSS-Fuzz - continuous fuzzing for open source software](https://github.com/google/oss-fuzz)
 
-
 ## SQL injection (SQLi)
 
+- [Running an SQL Injection Attack - Computerphile](https://www.youtube.com/watch?v=ciNHn38EyRc) - Excellent video explaining SQLi attacks, including blind and union attacks, with a demo.
 - [Testing for SQL Injection](https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/07-Input_Validation_Testing/05-Testing_for_SQL_Injection.html) - From OWASP.
 - [SQL Injection Prevention cheat sheet](https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html)
 - [SQL Injection Attacks by Example](http://www.unixwiz.net/techtips/sql-injection.html)
@@ -300,12 +306,10 @@ important aspect of application security.
 - [W3Schools tutorial on SQL](https://www.w3schools.com/sql/sql_injection.asp) - Always helpful to learn SQL in order to better understand how SQL injections work.
 - [SQLi challenges](http://www.zixem.altervista.org/SQLi/) - Fun challenges to practice SQLi, but probably presented in a less pedagogical way than the labs from PortSwigger, where each attack was thoroughly explained.
 
-
 ## Command injection vulnerabilities
 
-- [Command Injections](https://research.cs.wisc.edu/mist/SoftwareSecurityCourse/Chapters/3_8_2-Command-Injections.pdf)
+- [Command Injections](https://research.cs.wisc.edu/mist/SoftwareSecurityCourse/Chapters/3_8_2-Command-Injections.pdf) - PDF document covering the topic of command injections, with examples.
 - [GTFOBins](https://gtfobins.github.io/) - GTFOBins is a curated list of Unix binaries that can be used to bypass local security restrictions in misconfigured systems.
-
 
 ## Cross-site scripting (XSS)
 
@@ -316,13 +320,11 @@ important aspect of application security.
 - [Cross Site Scripting (XSS) Attack Tutorial with Examples, Types & Prevention](https://www.softwaretestinghelp.com/cross-site-scripting-xss-attack-test/)
 - [minimaxir/big-list-of-naughty-strings](https://github.com/minimaxir/big-list-of-naughty-strings) - The Big List of Naughty Strings is a list of strings which have a high probability of causing issues when used as user-input data.
 
-
 ## Ariane V launch accident
 
 - [Web section – Software Engineering 10th edition](https://software-engineering-book.com/case-studies/ariane5/)
 - [Ariane V: Fligh 501 Failure](https://esamultimedia.esa.int/docs/esa-x-1819eng.pdf) - Official report by the ESA. This report is provided out of curiosity, if you want to know more (and official) details about the accident.
 - [Light Years Ahead | The 1969 Apollo Guidance Computer - YouTube](https://www.youtube.com/watch?v=B1J2RMorJXM) - Approx 1h20min Youtube video. Apollo lunar and how it managed errors.
-
 
 ## Buffer overflow
 
@@ -330,11 +332,9 @@ important aspect of application security.
 
 - [Buffer Overflow Attack by Computerphile](https://www.youtube.com/watch?v=1S0aBV-Waeo) - Approx. 17min YouTube video.
 
-
 ## CRLF injection attacks
 
 - [What Are CRLF Injection Attacks | Acunetix](https://www.acunetix.com/websitesecurity/crlf-injection/)
-
 
 ## Logs
 
@@ -343,11 +343,9 @@ important aspect of application security.
 - [Pushing Left, Like a Boss — Part 5.9 — Error Handling and Logging – We Hack Purple](https://wehackpurple.com/pushing-left-like-a-boss%E2%80%8A-%E2%80%8Apart-5-9%E2%80%8A-%E2%80%8Aerror-handling-and-logging/)
 - [Logning - en del af et godt cyberforsvar, by CFCS](https://cfcs.dk/globalassets/cfcs/dokumenter/vejledninger/cfcs-vejledning-logning.pdf) - In Danish. Report from Nov. 2020.
 
-
 ## Security Culture
 
 - [An Information Security Policy for the Startup | by Ryan McGeehan | Medium](https://medium.com/starting-up-security/starting-up-security-policy-104261d5438a)
-
 
 ## Blameless postmortem investigations
 
@@ -355,24 +353,20 @@ important aspect of application security.
 - [Blameless PostMortems and a Just Culture](https://codeascraft.com/2012/05/22/blameless-postmortems/)
 - [Etsy’s Debriefing Facilitation Guide for Blameless Postmortems - Code as Craft](https://codeascraft.com/2016/11/17/debriefing-facilitation-guide/)
 
-
 ## Security champions
 
 - [How to Turn Your Developers into Security Champions](https://www.veracode.com/sites/default/files/pdf/resources/ipapers/how-to-turn-developers-into-security-champions/index.html)
 - [Building Security Champions – We Hack Purple](https://wehackpurple.com/building-security-champions)
-
 
 ## Usable security
 
 - [Why Johnny can't encrypt](https://people.eecs.berkeley.edu/~tygar/papers/Why_Johnny_Cant_Encrypt/OReilly.pdf) - Scientific paper.
 - [Psychology and Security Resource Page](https://www.cl.cam.ac.uk/~rja14/psysec.html)
 
-
 ## Gauntlt
 
 - [Bringing Security into the Pipeline | Kainos](https://www.kainos.com/bringing-security-pipeline)
 - [A closer look at Gauntlt | Kainos](https://www.kainos.com/closer-look-gauntlt) - Explains in more detail what Gauntlt is and does, how to configure it to use security tools other than the ones that come by default (arachni, nmap, curl and a few more). Out of the box Gauntlt only supports XSS attacks with Arachni but this article explains how to expand this functionality. It also demonstrates how to integrate Gauntlt with CI tools like Gitlab-CI.
-
 
 ## Testing and security testing
 
@@ -384,13 +378,11 @@ important aspect of application security.
 - [OWASP Web Security Testing Guide](https://owasp.org/www-project-web-security-testing-guide/) - Comprehensive guide to test the security of web applications. Good guide to have on your bookmarks for the future. It explains how to set up and conduct a pentest. It provides checklists and techniques of reconnaissance, mapping the environment and the application, and fingerprinting the technology stack. It also offers tests for identity management, authentication functions, session management, authorization, different kinds of injection attacks, and how to find holes in business logic.
 - [How to ensure the highest quality of Software code - DEV Community](https://dev.to/someshthakur/how-to-ensures-highest-quality-of-software-4917)
 
-
 ## Maturity analysis
 
 - [OWASP Software Assurance Maturity Model](https://owaspsamm.org/model/)
 - [Software Security in Practice - The Building Security In Maturity Model](https://www.yumpu.com/en/document/read/4225338/software-security-in-practice-the-building-security-in-maturity-model) - Good article talking about BSIMM.
 - [Online SAMM assessment Calculator](https://concordusa.com/SAMM/)
-
 
 ## OSQuery
 
@@ -398,13 +390,11 @@ important aspect of application security.
 - [How To Monitor Your System Security with osquery on Ubuntu 16.04](https://www.digitalocean.com/community/tutorials/how-to-monitor-your-system-security-with-osquery-on-ubuntu-16-04) - Good resource, full of examples.
 - [Exploring Osquery, Fleet, and Elastic Stack as an Open-source solution to Endpoint Detection and Response | SANS Institute](https://www.sans.org/reading-room/whitepapers/detection/exploring-osquery-fleet-elastic-stack-open-source-solution-endpoint-detection-response-39165) - SANS whitepaper.
 
-
 ## Books available online
 
 - [The Security Development Lifecycle](https://bit.ly/35dKSIj) - by Michael Howard and Steve Lipner
 - [Secure Programming HOWTO](https://dwheeler.com/secure-programs/Secure-Programs-HOWTO.pdf) - by D. Wheeler.
 - [Security Engineering](https://www.cl.cam.ac.uk/~rja14/book.html) - by R. Anderson. Second edition of the book is entirely available for free, as well as some parts of the third edition. It contains also several interesting teaching videos based on the book.
-
 
 ## Online trainings
 
