@@ -53,24 +53,29 @@
 - [Command injection vulnerabilities](#command-injection-vulnerabilities)
 - [Cross-site scripting (XSS)](#cross-site-scripting-xss)
 
-### Remaining lectures
+### Lecture 10
+
+- [Testing and security testing](#testing-and-security-testing)
+- [Gauntlt](#gauntlt)
+- [Formal verification](#formal-verification)
+
+### Lecture 11
 
 - [Ariane V launch accident](#ariane-v-launch-accident)
 - [Buffer overflow](#buffer-overflow)
 - [CRLF injection attacks](#crlf-injection-attacks)
 - [Logs](#logs)
-- [Formal verification](#formal-verification)
 - [Security Culture](#security-culture)
 - [Blameless postmortem investigations](#blameless-postmortem-investigations)
 - [Security champions](#security-champions)
 - [Usable security](#usable-security)
-- [Gauntlt](#gauntlt)
-- [Testing and security testing](#testing-and-security-testing)
+
+### Remaining lectures
+
 - [Maturity analysis](#maturity-analysis)
 - [OSQuery](#osquery)
 - [Books available online](#books-available-online)
 - [Online trainings](#online-trainings)
-
 
 ## Security by design
 
@@ -372,9 +377,9 @@ important aspect of application security.
 
 - [Predicting Software Assurance Using Quality and Reliability Measures](https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=435326) - Approx. 20min podcast that discusses how a combination of software development quality and quality techniques can improve software quality. Recommended to listen to, if you have the time.
 - [The Agile Testing Pyramid – Agile Coach Journal](https://www.agilecoachjournal.com/2014-01-28/the-agile-testing-pyramid) - Explains the three layers of the testing pyramid (unit, service, and UI) in the context of Agile projects.
-- [The Forgotten Layer of the Test Automation Pyramid](https://www.mountaingoatsoftware.com/blog/the-forgotten-layer-of-the-test-automation-pyramid)
+- [The Forgotten Layer of the Test Automation Pyramid](https://www.mountaingoatsoftware.com/blog/the-forgotten-layer-of-the-test-automation-pyramid) - Discusses about effective test automation strategies, automating tests at three different levels: UI, service level, and unit tests.
 - [Just Say No to More End-to-End Tests](https://testing.googleblog.com/2015/04/just-say-no-to-more-end-to-end-tests.html) - Why the focus shouldn’t be on doing tests from the UI.
-- [Goto Fail, Heartbleed, and Unit Testing Culture](https://martinfowler.com/articles/testing-culture.html) - We mention in class why these bugs couldn’t be found using fuzz testing. In this article, the software development community suggest that more unit tests could have helped.
+- [Goto Fail, Heartbleed, and Unit Testing Culture](https://martinfowler.com/articles/testing-culture.html) - We mentioned in class why these bugs couldn’t be found using fuzz testing. In this article, the software development community suggests that more unit tests could have helped.
 - [OWASP Web Security Testing Guide](https://owasp.org/www-project-web-security-testing-guide/) - Comprehensive guide to test the security of web applications. Good guide to have on your bookmarks for the future. It explains how to set up and conduct a pentest. It provides checklists and techniques of reconnaissance, mapping the environment and the application, and fingerprinting the technology stack. It also offers tests for identity management, authentication functions, session management, authorization, different kinds of injection attacks, and how to find holes in business logic.
 - [How to ensure the highest quality of Software code - DEV Community](https://dev.to/someshthakur/how-to-ensures-highest-quality-of-software-4917)
 
