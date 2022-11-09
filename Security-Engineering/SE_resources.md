@@ -64,14 +64,14 @@
 - [Ariane V launch accident](#ariane-v-launch-accident)
 - [Buffer overflow](#buffer-overflow)
 - [CRLF injection attacks](#crlf-injection-attacks)
+
+### Miscellaneous
+
 - [Logs](#logs)
 - [Security Culture](#security-culture)
 - [Blameless postmortem investigations](#blameless-postmortem-investigations)
 - [Security champions](#security-champions)
 - [Usable security](#usable-security)
-
-### Remaining lectures
-
 - [Maturity analysis](#maturity-analysis)
 - [OSQuery](#osquery)
 - [Books available online](#books-available-online)
